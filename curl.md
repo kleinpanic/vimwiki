@@ -1,0 +1,1 @@
+- curl ysap.sh and ysap/help 
