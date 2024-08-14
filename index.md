@@ -29,6 +29,10 @@
 
 ### Personal
 
+### Zeta Psi 
+- [bylaw-diff](bylaw-diff)
+
+
 ### ToDo
 
 ### Conspiracy theories
