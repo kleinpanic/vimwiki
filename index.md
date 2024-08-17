@@ -1,4 +1,4 @@
-# [Neovim](Neovim) Wiki
+# Neovim Wiki
 
 ## Table of Contents
 
@@ -12,6 +12,7 @@
  - [Resources](Resources)
  - [Bash Regex](Bash-Regex)
  - [curl](curl)
+ - [Syntax](Syntax)
 
 
 ### Work
