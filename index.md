@@ -19,6 +19,7 @@
 
 ### School
  - [Morality-and-justice](Morality-and-justice)
+ - [Physics](Physics)
 
 ### Games
 - [OpenTTD](OpenTTD)
