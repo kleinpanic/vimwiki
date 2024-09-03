@@ -6,6 +6,10 @@
 
 - [2024](diary/2024.md)
 
+## videos
+
+- [klein](klein)
+
 ## Note 
 
 ### Linux/Unix
@@ -13,7 +17,7 @@
  - [Bash Regex](Bash-Regex)
  - [curl](curl)
  - [Syntax](Syntax)
-
+ - [vim](vim)
 
 ### Work
 
