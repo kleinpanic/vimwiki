@@ -25,6 +25,7 @@
  - [Morality-and-justice](Morality-and-justice)
  - [Physics](Physics)
  - [HPA-Meet](HPA-Meet)
+ - [Rythms-of-the-brain](Rythms-of-the-brain)
 
 ### Games
 - [OpenTTD](OpenTTD)
