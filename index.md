@@ -24,6 +24,7 @@
 ### School
  - [Morality-and-justice](Morality-and-justice)
  - [Physics](Physics)
+ - [HPA-Meet](HPA-Meet)
 
 ### Games
 - [OpenTTD](OpenTTD)
