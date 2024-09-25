@@ -34,6 +34,7 @@
 ### Computer Science
 - [Coding Languages](Coding-Languages)  
 - [Penetration-testing](Penetration-testing)
+- [Computer-Network](Computer-Network/Computer-Network.md)
 ### Projects 
 - [Weather Projects](Weather-Projects)
 
