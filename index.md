@@ -42,7 +42,7 @@
 
 ### Zeta Psi 
 - [bylaw-diff](bylaw-diff)
-
+- [thiru](thiru)
 
 ### ToDo
  - [ToDo](ToDo)
