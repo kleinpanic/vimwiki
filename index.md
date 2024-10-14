@@ -2,51 +2,42 @@
 
 ## Table of Contents
 
-## Diary
+### Diary
 
 - [2024](diary/2024.md)
 
-## videos
+### videos
 
-- [klein](klein)
+- Youtube Videos:
+    - [Discography](Youtube/discography)
 
-## Note 
-
-### Linux/Unix
- - [Resources](Resources)
- - [Bash Regex](Bash-Regex)
- - [curl](curl)
- - [Syntax](Syntax)
- - [vim](vim)
- - [tmux](tmux)
-
-### Work
+### Linux / Unix / General Computer Science
+ - [Open-Source-Software-Index](Computer-Science/OpenSource/Open-Source-Software-Index)
+ - [CodingLanguage-Index](Computer-Science/ProgrammingLanguages/Coding-Language-index)
+ - [Bash Regex](Computer-Science/Misc/Bash-Regex)
+ - [Resources](Computer-Science/Resources/Resources)
+ - [Various-Programming-Syntax](Computer-Science/ProgrammingLanguages/Syntax)
+ - [vim](Computer-Science/OpenSource/vim)
+ - [tmux](Computer-Science/OpenSource/tmux)
+ - [Coding Languages](Computer-Science/ProgrammingLanguages/Coding-Languages)  
+ - [Computer-Network](Computer-Science/Computer-Network/Computer-Network.md)
+ - [flac-files](Computer-Science/FileTypes/flac-files)
 
 ### School
- - [Morality-and-justice](Morality-and-justice)
- - [Physics](Physics)
- - [HPA-Meet](HPA-Meet)
- - [Rythms-of-the-brain](Rythms-of-the-brain)
- - [English](English)
+ - [Morality-and-justice](School/Morality-and-justice)
+ - [Physics](School/Physics)
+ - [HPA-Meet](School/HPA-Meet)
+ - [English](School/English)
+
 ### Games
-- [OpenTTD](OpenTTD)
-- [minecraft](minecraft)
-### Computer Science
-- [Coding Languages](Coding-Languages)  
-- [Penetration-testing](Penetration-testing)
-- [Computer-Network](Computer-Network/Computer-Network.md)
-### Projects 
-- [Weather Projects](Weather-Projects)
+ - [OpenTTD](Games/OpenTTD)
+ - [minecraft](Games/minecraft)
 
-### Personal
+### Projects-Documentation 
+ - [Weather Projects](Projects-Documentation/Weather-Projects)
 
-### Zeta Psi 
-- [bylaw-diff](bylaw-diff)
-- [thiru](thiru)
+### Conspiracy-Theories
+ - [Conspiracy-Index](/Conspiracy-Theories/Conspindex.md)
 
-### ToDo
- - [ToDo](ToDo)
-### Conspiracy theories
- - [Government](Government)
-
-## References
+### Resources (General)
+ - [Various-Sites](Resources/sites)
