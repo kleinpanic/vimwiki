@@ -1,5 +1,8 @@
 #Physics
 
+## Lab  
+- [Ethics](Ethics)
+
 ## Lecture 2 
 - Vectors
     - "Magnitude and direction"

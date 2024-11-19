@@ -1,3 +1,9 @@
-# Notes!
+# VimWiki
+## Overview
+This is a collection of all my vimwiki notes. It uses neovim vim wiki packer package from github to work. 
 
-## Contains all my notes in a .md format with supplemental other files like pngs. 
+## .gitignore
+- secretes = shit i dont wanna share on github
+- Password = obvious shit i dont wanna share on github
+- Youtube = Has no relivance to the public
+- diary = no relivance to the public 

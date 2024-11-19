@@ -28,6 +28,7 @@
  - [Physics](School/Physics)
  - [HPA-Meet](School/HPA-Meet)
  - [English](School/English)
+ - [Rythms-Of-The-Brain](School/Rythms-Of-The-Brain)
 
 ### Games
  - [OpenTTD](Games/OpenTTD)
@@ -35,6 +36,7 @@
 
 ### Projects-Documentation 
  - [Weather Projects](Projects-Documentation/Weather-Projects)
+ - [KPChat](Projects-Documentation/KPChat)
 
 ### Conspiracy-Theories
  - [Conspiracy-Index](/Conspiracy-Theories/Conspindex.md)
