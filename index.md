@@ -6,6 +6,10 @@
 
 - [2024](diary/2024.md)
 
+### Personal
+
+- [Personal-Index](personal/Personal-Index)
+
 ### videos
 
 - Youtube Videos:
@@ -29,6 +33,7 @@
  - [HPA-Meet](School/HPA-Meet)
  - [English](School/English)
  - [Rythms-Of-The-Brain](School/Rythms-Of-The-Brain)
+ - [Minor](Minor)
 
 ### Games
  - [OpenTTD](Games/OpenTTD)
