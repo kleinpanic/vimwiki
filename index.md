@@ -44,7 +44,9 @@
  - [KPChat](Projects-Documentation/KPChat)
 
 ### Conspiracy-Theories
- - [Conspiracy-Index](/Conspiracy-Theories/Conspindex.md)
+ - [Conspiracy-Index](Conspiracy-Theories/Conspindex.md)
 
+### MidasTechnologies
+ - [Index](MidasTechnologies/Index)
 ### Resources (General)
  - [Various-Sites](Resources/sites)
