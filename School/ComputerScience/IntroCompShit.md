@@ -1,2 +1,2 @@
 
-[IntroCompShit](SupportingFiles/latex.pdf)
+[IntroCompShit](../../SupportingFiles/latex.pdf)

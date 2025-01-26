@@ -4,7 +4,8 @@
 
 ### Diary
 
-- [2024](diary/2024.md)
+- [2024]()
+
 
 ### Personal
 
@@ -24,8 +25,14 @@
  - [vim](Computer-Science/OpenSource/vim)
  - [tmux](Computer-Science/OpenSource/tmux)
  - [Coding Languages](Computer-Science/ProgrammingLanguages/Coding-Languages)  
- - [Computer-Network](Computer-Science/Computer-Network/Computer-Network.md)
+ - [Computer-Network](Computer-Science/Computer-Network/Computer-Network)
  - [flac-files](Computer-Science/FileTypes/flac-files)
+ - [latex](Computer-Science/FileTypes/latex)
+
+## Computer Science Index
+
+- [Machine-Learning-Index](MachineLearning/Machine-Learning-Index)
+- [libraries](libraries)
 
 ### School
  - [Morality-and-justice](School/Morality-and-justice)
@@ -34,6 +41,7 @@
  - [English](School/English)
  - [Rythms-Of-The-Brain](School/Rythms-Of-The-Brain)
  - [Minor](Minor)
+ - [IntroCompShit](School/ComputerScience/IntroCompShit)
 
 ### Games
  - [OpenTTD](Games/OpenTTD)
@@ -48,5 +56,13 @@
 
 ### MidasTechnologies
  - [Index](MidasTechnologies/Index)
+
 ### Resources (General)
  - [Various-Sites](Resources/sites)
+
+
+
+
+
+
+
