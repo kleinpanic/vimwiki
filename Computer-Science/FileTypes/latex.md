@@ -151,9 +151,12 @@ Include the bibliography in your `.tex` file:
 - [LaTeX Wikibook](http://en.wikibooks.org/wiki/LaTeX/)
 - [Not So Short Introduction to LaTeX](http://ctan.tug.org/tex-archive/info/lshort/english/lshort.pdf)
 
+![latex](/SupportingFiles/latex.pdf)
+
 ---
 
-###Keybinding Summary
+### Keybinding Summary
+
     * <leader>lt: Create a LaTeX file with a basic template.
     * <leader>ld: Save the .tex file and return to the markdown file.
     * <leader>lc: Compile the LaTeX file and move the PDF to SupportingFiles.

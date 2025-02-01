@@ -4,8 +4,8 @@
 
 ### Diary
 
-- [2024]()
-
+- [2024](Diary/2024)
+- [2025](Diary/2025)
 
 ### Personal
 
@@ -15,6 +15,10 @@
 
 - Youtube Videos:
     - [Discography](Youtube/discography)
+
+## unsorted
+
+ - [bell-labs](unsorted/bell-labs)
 
 ### Linux / Unix / General Computer Science
  - [Open-Source-Software-Index](Computer-Science/OpenSource/Open-Source-Software-Index)
@@ -28,6 +32,9 @@
  - [Computer-Network](Computer-Science/Computer-Network/Computer-Network)
  - [flac-files](Computer-Science/FileTypes/flac-files)
  - [latex](Computer-Science/FileTypes/latex)
+ - [qutebrowser](Computer-Science/OpenSource/qutebrowser) 
+ - [DWM](Computer-Science/OpenSource/Suckless/DWM)
+ - [ST](Computer-Science/OpenSource/Suckless/ST)
 
 ## Computer Science Index
 
@@ -42,6 +49,7 @@
  - [Rythms-Of-The-Brain](School/Rythms-Of-The-Brain)
  - [Minor](Minor)
  - [IntroCompShit](School/ComputerScience/IntroCompShit)
+ - [English-2744](English-2744/English-2744)
 
 ### Games
  - [OpenTTD](Games/OpenTTD)
@@ -52,7 +60,7 @@
  - [KPChat](Projects-Documentation/KPChat)
 
 ### Conspiracy-Theories
- - [Conspiracy-Index](Conspiracy-Theories/Conspindex.md)
+ - [Conspiracy-Index](Conspiracy-Theories/Conspindex)
 
 ### MidasTechnologies
  - [Index](MidasTechnologies/Index)
