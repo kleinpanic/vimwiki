@@ -36,20 +36,13 @@
  - [DWM](Computer-Science/OpenSource/Suckless/DWM)
  - [ST](Computer-Science/OpenSource/Suckless/ST)
 
-## Computer Science Index
+### Computer Science Index
 
 - [Machine-Learning-Index](MachineLearning/Machine-Learning-Index)
 - [libraries](libraries)
 
 ### School
- - [Morality-and-justice](School/Morality-and-justice)
- - [Physics](School/Physics)
- - [HPA-Meet](School/HPA-Meet)
- - [English](School/English)
- - [Rythms-Of-The-Brain](School/Rythms-Of-The-Brain)
- - [Minor](Minor)
- - [IntroCompShit](School/ComputerScience/IntroCompShit)
- - [English-2744](English-2744/English-2744)
+- [School-Index](School/School-Index)
 
 ### Games
  - [OpenTTD](Games/OpenTTD)

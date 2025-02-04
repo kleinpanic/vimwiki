@@ -4,10 +4,10 @@
 - Journal1
 - [Journal2](Journal/Journal2)
 - [Journal3](Journal/Journal3)
+- [Journal4](Journal4)
 
 
 ## Writing Prompts
 - WritingPrompt1 
 - [WritingPrompt2](WritingPrompts/WritingPrompt2)
 - [WritingPrompt3](WritingPrompts/WritingPrompt3)
-- 

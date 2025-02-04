@@ -1,2 +1,0 @@
-
-[IntroCompShit](../../SupportingFiles/latex.pdf)
