@@ -80,11 +80,11 @@
   - `SmartJeroo` **inherits** all behaviors from `Jeroo` and **adds new methods**.
 
 ### **Superclass vs. Subclass**
-| Concept  | Description |
-|----------|------------|
-| **Superclass** | Parent class that provides methods and attributes. |
-| **Subclass** | Child class that inherits from a superclass and can override methods. |
-| **`extends`** | Keyword that establishes inheritance. |
+| Concept        | Description                                                           |
+|----------------|-----------------------------------------------------------------------|
+| **Superclass** | Parent class that provides methods and attributes.                    |
+| **Subclass**   | Child class that inherits from a superclass and can override methods. |
+| **`extends`**  | Keyword that establishes inheritance.                                 |
 
 ---
 
@@ -124,14 +124,14 @@ andy.turnLightOn();
 ## **7. Core Methods for Jeroo**
 Jeroos understand **7 core methods**:
 
-| Method | Description |
-|--------|------------|
-| `hop()` | Moves forward one space. |
-| `hop(n)` | Moves forward `n` spaces. |
-| `pick()` | Picks up a flower. |
-| `plant()` | Plants a flower. |
-| `toss()` | Throws a flower to disable a net. |
-| `turn(direction)` | Turns left or right. |
+| Method            | Description                                     |
+|-------------------|-------------------------------------------------|
+| `hop()`           | Moves forward one space.                        |
+| `hop(n)`          | Moves forward `n` spaces.                       |
+| `pick()`          | Picks up a flower.                              |
+| `plant()`         | Plants a flower.                                |
+| `toss()`          | Throws a flower to disable a net.               |
+| `turn(direction)` | Turns left or right.                            |
 | `give(direction)` | Gives a flower to another Jeroo in a direction. |
 
 ### **Example Usage**
@@ -188,4 +188,3 @@ public class SmartJeroo extends Jeroo {
 ```
 - If `SmartJeroo` objects are used, they execute the overridden `hop()`.
 
----
