@@ -6,3 +6,4 @@
  - [Minor](ETC/Minor)
  - [English-2744](English-2744/English-2744)
  - [Computer-Science-Index](CS/Computer-Science-Index)
+ - [PSYC-Index](PSYC/PSYC-Index)
