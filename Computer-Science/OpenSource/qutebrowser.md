@@ -175,334 +175,264 @@ Qutebrowser's keybindings are categorized based on the mode they operate in. Bel
 
 The primary mode for navigation and control. Similar to Vim's normal mode.
 
-| **Key**        | **Description**                                         |
-|----------------|---------------------------------------------------------|
-| `h`            | Move left                                               |
-| `j`            | Move down                                               |
-| `k`            | Move up                                                 |
-| `l`            | Move right                                              |
-| `gg`           | Go to top of the page                                   |
-| `G`            | Go to bottom of the page                                |
-| `H`            | Go to top of the visible page                           |
-| `M`            | Go to middle of the visible page                        |
-| `L`            | Go to bottom of the visible page                        |
-| `0`            | Go to start of the line                                 |
-| `$`            | Go to end of the line                                   |
-| `d`            | Scroll down half a page                                 |
-| `u`            | Scroll up half a page                                   |
-| `D`            | Scroll down one page                                    |
-| `U`            | Scroll up one page                                      |
-| `f`            | Open file dialog                                        |
-| `b`            | Go back in history                                      |
-| `r`            | Reload the page                                         |
-| `R`            | Force reload the page                                   |
-| `t`            | Open a new tab                                          |
-| `T`            | Open a new tab in the background                        |
-| `x`            | Close the current tab                                    |
-| `c`            | Close the current tab                                    |
-| `w`            | Open window switcher                                     |
-| `W`            | Close the current window                                 |
-| `n`            | Next tab                                                |
-| `p`            | Previous tab                                            |
-| `P`            | Switch to the previous tab                               |
-| `:`            | Open command prompt                                     |
-| `;`            | Cycle through hints                                      |
-| `.`            | Execute the last command                                 |
-| `/`            | Start a search                                           |
-| `?`            | Start a reverse search                                   |
-| `y`            | Yank (copy) the current URL                              |
-| `Y`            | Yank (copy) all URLs in the current tab                 |
-| `v`            | Enter caret mode (visual selection)                      |
-| `V`            | Enter insert mode                                        |
-| `b`            | Navigate back in history                                 |
-| `gU`           | Change the current URL to uppercase                     |
-| `gu`           | Change the current URL to lowercase                     |
-| `guu`          | Change the current URL to lowercase and yank            |
-| `gUU`          | Change the current URL to uppercase and yank            |
-| `zx`           | Reload and update all cached information                 |
-| `zi`           | Toggle zoom                                               |
-| `ZQ`           | Quit without saving                                      |
-| `ZZ`           | Save and quit                                            |
-
-### Insert Mode
-
-Used for typing text into input fields or forms.
-
-| **Key**        | **Description**                                         |
-|----------------|---------------------------------------------------------|
-| `Esc`          | Return to normal mode                                   |
-| `Ctrl + c`     | Return to normal mode                                   |
-| `Ctrl + [`     | Return to normal mode                                   |
-| `i`            | Enter insert mode before the cursor                     |
-| `a`            | Enter insert mode after the cursor                      |
-| `I`            | Enter insert mode at the beginning of the line           |
-| `A`            | Enter insert mode at the end of the line                 |
-| `o`            | Open a new line below and enter insert mode              |
-| `O`            | Open a new line above and enter insert mode              |
-
-### Caret Mode
-
-Allows navigation and selection within the webpage's text.
-
-| **Key**        | **Description**                                         |
-|----------------|---------------------------------------------------------|
-| `j`            | Move caret down                                         |
-| `k`            | Move caret up                                           |
-| `h`            | Move caret left                                         |
-| `l`            | Move caret right                                        |
-| `0`            | Move caret to the start of the line                     |
-| `$`            | Move caret to the end of the line                       |
-| `w`            | Move caret to the start of the next word                 |
-| `b`            | Move caret to the start of the previous word             |
-| `e`            | Move caret to the end of the current word               |
-| `v`            | Start visual selection                                   |
-| `V`            | Start line-wise visual selection                        |
-| `Ctrl + v`     | Start block-wise visual selection                       |
-| `y`            | Yank (copy) the selected text                            |
-| `d`            | Delete the selected text                                 |
-| `c`            | Change the selected text                                 |
-| `Esc`          | Exit caret mode                                          |
-
-### Command Mode
-
-Accessed by pressing `:` in Normal Mode. Allows execution of various commands.
-
-| **Command**        | **Description**                                         |
-|--------------------|---------------------------------------------------------|
-| `:open <url>`      | Open a new URL in the current tab                        |
-| `:tab-open <url>`  | Open a new URL in a new tab                               |
-| `:tab-close`       | Close the current tab                                     |
-| `:tab-next`        | Switch to the next tab                                    |
-| `:tab-prev`        | Switch to the previous tab                                |
-| `:quit`            | Quit Qutebrowser                                         |
-| `:quit-all`        | Quit all tabs and exit                                    |
-| `:restart`         | Restart Qutebrowser                                      |
-| `:config-write`    | Save the current configuration to the config file         |
-| `:config-source`   | Reload the configuration from the config file             |
-| `:hint links`      | Enter hint mode to follow links                           |
-| `:hint images`     | Enter hint mode to open images                             |
-| `:hint all`        | Enter hint mode for all elements                           |
-| `:download`        | Start a download for the selected link                     |
-| `:buffer <number>` | Switch to the specified buffer by number                   |
-| `:spawn <command>` | Execute an external command                                |
-| `:bookmark-add <name>` | Add a bookmark with the specified name                |
-| `:bookmark-load <name>` | Load the bookmark with the specified name           |
-| `:session-save <name>` | Save the current session with the specified name     |
-| `:session-load <name>` | Load the saved session with the specified name      |
-| `:help`            | Open the help documentation                                |
-
-### Hint Mode
-
-Facilitates interaction with specific elements on the webpage using hints.
-
-| **Key**        | **Description**                                         |
-|----------------|---------------------------------------------------------|
-| `f`            | Open a link in the current tab                           |
-| `F`            | Open a link in a new tab                                 |
-| `;f`           | Open a link in the current tab using a regex hint         |
-| `;F`           | Open a link in a new tab using a regex hint               |
-| `y`            | Yank the URL of the hinted element                        |
-| `d`            | Download the hinted element's URL                         |
-| `c`            | Change the hint mode to select a different element        |
-| `Esc`          | Exit hint mode                                            |
-
-### Bindings for Specific Actions
-
-| **Key Combination** | **Description**                                         |
-|---------------------|---------------------------------------------------------|
-| `Shift + J`         | Scroll down one line                                    |
-| `Shift + K`         | Scroll up one line                                      |
-| `Ctrl + d`          | Scroll down half a page                                 |
-| `Ctrl + u`          | Scroll up half a page                                   |
-| `Ctrl + f`          | Scroll down one page                                    |
-| `Ctrl + b`          | Scroll up one page                                      |
-| `g`                 | Go to top of the page                                   |
-| `G`                 | Go to bottom of the page                                |
-| `b`                 | Go back in history                                      |
-| `r`                 | Reload the current page                                 |
-| `R`                 | Force reload the current page                           |
-| `m`                 | Add a bookmark                                           |
-| `b` then `m`        | Add a bookmark with the selected name                   |
-| `p`                 | Paste from clipboard                                     |
-| `yy`                | Yank the current URL                                     |
-| `Y`                 | Yank all URLs in the current tab                        |
-| `ZQ`                | Quit without saving                                     |
-| `ZZ`                | Save and quit                                            |
-| `~`                 | Toggle hint mode                                         |
-| `:open`             | Open a new URL                                           |
-| `:spawn`            | Execute an external command                              |
-
----
-
-## Comprehensive Key Bindings
-
-Below is a detailed list of all default Qutebrowser key bindings. These bindings are categorized based on the mode they operate in: Normal, Insert, Caret, Command, and Hint modes.
-
-### Normal Mode
-
-The primary mode for navigation and control. Similar to Vim's normal mode.
-
-| **Key**         | **Description**                                         |
-|-----------------|---------------------------------------------------------|
-| `h`             | Move left                                               |
-| `j`             | Move down                                               |
-| `k`             | Move up                                                 |
-| `l`             | Move right                                              |
-| `gg`            | Go to top of the page                                   |
-| `G`             | Go to bottom of the page                                |
-| `H`             | Go to top of the visible page                           |
-| `M`             | Go to middle of the visible page                        |
-| `L`             | Go to bottom of the visible page                        |
-| `0`             | Go to start of the line                                 |
-| `$`             | Go to end of the line                                   |
-| `d`             | Scroll down half a page                                 |
-| `u`             | Scroll up half a page                                   |
-| `D`             | Scroll down one page                                    |
-| `U`             | Scroll up one page                                      |
-| `f`             | Open file dialog                                        |
-| `b`             | Go back in history                                      |
-| `r`             | Reload the page                                         |
-| `R`             | Force reload the page                                   |
-| `t`             | Open a new tab                                          |
-| `T`             | Open a new tab in the background                        |
-| `x`             | Close the current tab                                   |
-| `c`             | Close the current tab                                   |
-| `w`             | Open window switcher                                     |
-| `W`             | Close the current window                                |
-| `n`             | Next tab                                                |
-| `p`             | Previous tab                                            |
-| `P`             | Switch to the previous tab                               |
-| `:`             | Open command prompt                                     |
-| `;`             | Cycle through hints                                      |
-| `.`             | Execute the last command                                 |
-| `/`             | Start a search                                           |
-| `?`             | Start a reverse search                                   |
-| `y`             | Yank (copy) the current URL                              |
-| `Y`             | Yank (copy) all URLs in the current tab                 |
-| `v`             | Enter caret mode (visual selection)                      |
-| `V`             | Enter insert mode                                        |
-| `b`             | Navigate back in history                                 |
-| `gU`            | Change the current URL to uppercase                     |
-| `gu`            | Change the current URL to lowercase                     |
-| `guu`           | Change the current URL to lowercase and yank            |
-| `gUU`           | Change the current URL to uppercase and yank            |
-| `zx`            | Reload and update all cached information                 |
-| `zi`            | Toggle zoom                                               |
-| `ZQ`            | Quit without saving                                      |
-| `ZZ`            | Save and quit                                            |
-| `Ctrl + a`      | Select all text                                          |
-| `Ctrl + r`      | Reload the current page                                  |
-| `Ctrl + p`      | Open the command prompt                                  |
-| `Ctrl + f`      | Open a search bar for forward search                     |
-| `Ctrl + b`      | Open a search bar for backward search                    |
-| `Ctrl + h`      | Open history                                              |
-| `Ctrl + m`      | Show media elements (images, videos)                      |
-
-### Insert Mode
-
-Used for typing text into input fields or forms.
-
-| **Key**         | **Description**                                         |
-|-----------------|---------------------------------------------------------|
-| `Esc`           | Return to normal mode                                   |
-| `Ctrl + c`      | Return to normal mode                                   |
-| `Ctrl + [`      | Return to normal mode                                   |
-| `i`             | Enter insert mode before the cursor                      |
-| `a`             | Enter insert mode after the cursor                       |
-| `I`             | Enter insert mode at the beginning of the line            |
-| `A`             | Enter insert mode at the end of the line                  |
-| `o`             | Open a new line below and enter insert mode               |
-| `O`             | Open a new line above and enter insert mode               |
-
-### Caret Mode
-
-Allows navigation and selection within the webpage's text.
-
-| **Key**         | **Description**                                         |
-|-----------------|---------------------------------------------------------|
-| `j`             | Move caret down                                         |
-| `k`             | Move caret up                                           |
-| `h`             | Move caret left                                         |
-| `l`             | Move caret right                                        |
-| `0`             | Move caret to the start of the line                     |
-| `$`             | Move caret to the end of the line                       |
-| `w`             | Move caret to the start of the next word                 |
-| `b`             | Move caret to the start of the previous word             |
-| `e`             | Move caret to the end of the current word               |
-| `v`             | Start visual selection                                   |
-| `V`             | Start line-wise visual selection                        |
-| `Ctrl + v`      | Start block-wise visual selection                       |
-| `y`             | Yank (copy) the selected text                            |
-| `d`             | Delete the selected text                                 |
-| `c`             | Change the selected text                                 |
-| `Esc`           | Exit caret mode                                          |
+| **Key**      | **Description**                                        |
+|--------------|--------------------------------------------------------|
+| `q`          | `Record Macro`                                         |
+| `r`          | `reload`                                               |
+| `R`          | `reload (Bypass cache)`                                |
+| `t`          | `toggle`                                               |
+| `tsh`        | `Toggle scripts for the current host (Temporary)`      |
+| `tSh`        | `tsh but permanently.`                                 |
+| `tsH/tsu`    | `like tshb ut including subdomains / with exexact URL` |
+| `tph`        | `Toggle plugins`                                       |
+| `T`          | `Tab-focus`                                            |
+| `yd`         | `Yank Domain`                                          |
+| `ym`         | `Yank inline [{title}]({url})`                         |
+| `yp`         | `yank pretty-url`                                      |
+| `yt`         | `yank title`                                           |
+| `yy`         | `yank`                                                 |
+| `yD`         | `yank domain -s`                                       |
+| `yM`         | `yank inline [{title}]({url}) -s`                      |
+| `yP`         | `yank pretty-url -s`                                   |
+| `yT`         | `yank title -s`                                        |
+| `yY`         | `yank -s`                                              |
+| `u`          | `undo closing tab`                                     |
+| `U`          | `Undo something                                        |
+| `i`          | `enter insert-mode`                                    |
+| `o`          | `Open`                                                 |
+| `O`          | `Open in a new tab (open -t)`                          |
+| `go`         | `edit & open current url`                              |
+| `gO`         | `like go, in new tab`                                  |
+| `xO`         | `Like go, in bg. tab`                                  |
+| `xo`         | `Open in background tab`                               |
+| `wo`         | `open in new window`                                   |
+| `ad`         | `Cancel download`                                      |
+| `sf`         | `Save config`                                          |
+| `ss`         | `set config`                                           |
+| `sk`         | `set bind key`                                         |
+| `sl`         | `set config in new tab`                                |
+| `Ss`         | `Show settings`                                        |
+| `Sb`         | `bookmark-list --jump`                                 |
+| `Sh`         | `history`                                              |
+| `Sq`         | `bookmark list`                                        |
+| `pp`         | `Open url from clipboard`                              |
+| `pP`         | `Open url from selection`                              |
+| `Pp`         | `pp in new tab`                                        |
+| `PP`         | `pP in new tap`                                        |
+| `wp`         | `pp in new window`                                     |
+| `wP`         | `pP in new window`                                     |
+| `d`          | `close tab and open right tab`                         |
+| `D`          | `close tab and open left tab`                          |
+| `F`          | `Follow hints in new tab`                              |
+| `f`          | `Follow hints in current tab`                          |
+| `wf`         | `Follow hint in new window`                            |
+| `G`          | `Scroll to bottom`                                     |
+| `gg`         | `Scroll to top`                                        |
+| `g$`         | `tab focus -1`                                         |
+| `g0`         | `tab focus 1 `                                         |
+| `ga`         | `open -t`                                              |
+| `gb`         | `bookmark-load`                                        |
+| `gd`         | `download`                                             |
+| `gf`         | `view source`                                          |
+| `gi`         | `hint inputs`                                          |
+| `gm`         | `tab-move`                                             |
+| `gt`         | `tab-select`                                           |
+| `gu`         | `navigate up`                                          |
+| `g^`         | `tab-focus 1`                                          |
+| `gB`         | `bookmark-load in new tab`                             |
+| `gC`         | `tab-clone`                                            |
+| `gD`         | `tab-give`                                             |
+| `gJ`         | `tab move +`                                           |
+| `gK`         | `tab-move -`                                           |
+| `gU`         | `Navigate up -t`                                       |
+| `h`          | `scroll left`                                          |
+| `H`          | `Go back`                                              |
+| `th`         | `Back in a new tab`                                    |
+| `wh`         | `Back in a new window`                                 |
+| `tl`         | `Forward in a new tab`                                 |
+| `wl`         | `Forward in a new window`                              |
+| `J`          | `Next Tab`                                             |
+| `j`          | `scroll down`                                          |
+| `K`          | `Previous tab`                                         |
+| `k`          | `Scroll up`                                            |
+| `L`          | `Forward`                                              |
+| `l`          | `Scroll right`                                         |
+| `cd`         | `download-clear`                                       |
+| `ce`         | `config-edit`                                          |
+| `co`         | `tab-only`                                             |
+| `cs`         | `config-source`                                        |
+| `v`          | `Viual mode`                                           |
+| `B`          | `Load quickmark`                                       |
+| `b`          | `load quick-mark`                                      |
+| `wb`         | `load quick-mark in new window`                        |
+| `N`          | `Search prev`                                          |
+| `n`          | `Search next`                                          |
+| `M`          | `Save Book-mark`                                       |
+| `m`          | `Save quickmark`                                       |
+| `.`          | `Repeat command`                                       |
+| `/`          | `Search`                                               |
+| `?`          | `Search backwards`                                     |
+| `,`          | `jump to scroll mark`                                  |
+| `:`          | `command mode`                                         |
+| `;`          | `ext. hitns`                                           |
+| `;b`         | `open hint in background tab`                          |
+| `;f`         | `open hint in foreground tab`                          |
+| `;h`         | `hover over hint (mouse over)`                         |
+| `;i`         | `hint images`                                          |
+| `;l`         | `Hint images in new tab`                               |
+| `;t`         | `hint inputs`                                          |
+| `;o`         | `put hinted url in cmd. line `                         |
+| `;O`         | `like ;o but in a new tab`                             |
+| `;y`         | `yank hinted url to clipboard`                         |
+| `;Y`         | `yabked hinted url to selection`                       |
+| `;r`         | `Rapid hinting`                                        |
+| `;R`         | `;r in a new window.`                                  |
+| `[[`         | `Click "previous"-link on page`                        |
+| `]]`         | `clink on "next"-link on page`                         |
+| `{{`         | `Like [[ but in new tab`                               |
+| `}}`         | `Like ]] but in a new tab.`                            |
+| `<Ctrl-A>`   | `Increase no. in URL`                                  |
+| `<Ctrl-X>`   | `Decrement no. in URL.`                                |
+| `-`          | `Zoom out`                                             |
+| `+`          | `Zoom in`                                              |
+| `=`          | `Set zoom level to 100`                                |
+| ```          | `Set scroll mark`                                      |
+| `@`          | `Run macro`                                            |
+| `Ctrl-F`     | `Page Down`                                            |
+| `Ctrl-B`     | `Page Up`                                              |
+| `Ctrl-D`     | `half Page Down`                                       |
+| `Ctrl-U`     | `Half Page Up`                                         |
+| `Ctrl-Tab`   | `Select prev. tab`                                     |
+| `Ctrl-V`     | `Passtrhough mode`                                     |
+| `Ctrl-Q`     | `Quit `                                                |
+| `Ctrl-H`     | `Home`                                                 |
+| `Ctrl-S`     | `Stop loading`                                         |
+| `Ctrl-Alt-P` | `Print `                                               |
+| `Ctrl-E`     | `Open Editor (Only in insert mode)`                    |
+| `Ctrl-P`     | `Prev. history Item (only in command mode)`            |
+| `Ctrl-N`     | `Next History Item (Only in command mode)`             |
+| `Ctrl-D`     | `Delete Current item (Only in command mode)`           |
+| `Alt-Num`    | `Select Tab`                                           |
+| `Tab`        | `Cycle completion items`                               |
+|--------------|--------------------------------------------------------|
 
 ### Command Mode
 
 Accessed by pressing `:` in Normal Mode. Allows execution of various commands.
 
-| **Command**           | **Description**                                         |
-|-----------------------|---------------------------------------------------------|
-| `:open <url>`         | Open a new URL in the current tab                       |
-| `:tab-open <url>`     | Open a new URL in a new tab                              |
-| `:tab-close`          | Close the current tab                                    |
-| `:tab-next`           | Switch to the next tab                                   |
-| `:tab-prev`           | Switch to the previous tab                               |
-| `:quit`               | Quit Qutebrowser                                        |
-| `:quit-all`           | Quit all tabs and exit                                   |
-| `:restart`            | Restart Qutebrowser                                     |
-| `:config-write`       | Save the current configuration to the config file        |
-| `:config-source`      | Reload the configuration from the config file            |
-| `:hint links`         | Enter hint mode to follow links                          |
-| `:hint images`        | Enter hint mode to open images                            |
-| `:hint all`           | Enter hint mode for all elements                          |
-| `:download`           | Start a download for the selected link                    |
-| `:buffer <number>`    | Switch to the specified buffer by number                  |
-| `:spawn <command>`    | Execute an external command                               |
-| `:bookmark-add <name>`| Add a bookmark with the specified name                    |
-| `:bookmark-load <name>`| Load the bookmark with the specified name                |
-| `:session-save <name>`| Save the current session with the specified name          |
-| `:session-load <name>`| Load the saved session with the specified name           |
-| `:help`               | Open the help documentation                               |
-
-### Hint Mode
-
-Facilitates interaction with specific elements on the webpage using hints.
-
-| **Key**         | **Description**                                         |
-|-----------------|---------------------------------------------------------|
-| `f`             | Open a link in the current tab                           |
-| `F`             | Open a link in a new tab                                 |
-| `;f`            | Open a link in the current tab using a regex hint         |
-| `;F`            | Open a link in a new tab using a regex hint               |
-| `y`             | Yank the URL of the hinted element                        |
-| `d`             | Download the hinted element's URL                         |
-| `c`             | Change the hint mode to select a different element        |
-| `Esc`           | Exit hint mode                                            |
-
-### Bindings for Specific Actions
-
-| **Key Combination** | **Description**                                         |
-|---------------------|---------------------------------------------------------|
-| `Shift + J`         | Scroll down one line                                    |
-| `Shift + K`         | Scroll up one line                                      |
-| `Ctrl + d`          | Scroll down half a page                                 |
-| `Ctrl + u`          | Scroll up half a page                                   |
-| `Ctrl + f`          | Scroll down one page                                    |
-| `Ctrl + b`          | Scroll up one page                                      |
-| `g`                 | Go to top of the page                                   |
-| `G`                 | Go to bottom of the page                                |
-| `b`                 | Go back in history                                      |
-| `r`                 | Reload the current page                                 |
-| `R`                 | Force reload the current page                           |
-| `m`                 | Add a bookmark                                           |
-| `y`                 | Yank the current URL                                     |
-| `Y`                 | Yank all URLs in the current tab                        |
-| `ZQ`                | Quit without saving                                     |
-| `ZZ`                | Save and quit                                            |
-| `~`                 | Toggle hint mode                                         |
-| `:`                 | Open a new URL                                           |
-| `:spawn`            | Execute an external command                              |
+| **Command**           | Description                                                            |
+|-----------------------|------------------------------------------------------------------------|
+| `adblock-update`      | `Update block lists for both the host- and the brave ad blocker`       |
+| `back`                | `Go back in the history of the current tab`                            |
+| `bind`                | `Bind to a key to a command`                                           |
+| `bookmark-add`        | `Save the current page as a bookmark or a specific url`                |
+| `bookmark-del`        | `Delete a bookmark`                                                    |
+| `bookmark-list`       | `Show all bookmarks / quickmarks`                                      |
+| `bookmark-load`       | `Load a bookmark`                                                      |
+| `clear-keychain`      | `Clear the current entered key chain`                                  |
+| `clear-messages`      | `Clear all message notifications`                                      |
+| `click-element`       | `Click the element matching the given filter`                          |
+| `close`               | `Close the current window`                                             |
+| `cmd-edit`            | `Open an editor to modify the current command`                         |
+| `cmd-later`           | `Execute a command after some time`                                    |
+| `cmd-repeat`          | `Repeat a given command.`                                              |
+| `cmd-repeat-last`     | `Repeat the last executed command.`                                    |
+| `cmd-run-with-count`  | `Run a command with the given count.`                                  |
+| `cmd-set-text`        | `Preset the statusbr to some text`                                     |
+| `config-clear`        | `Set all settings back to their default.`                              |
+| `config-cycle`        | `Cycle an option between multiple values.`                             |
+| `config-dict-add`     | `Add a key / value pair to a dictionary option`                        |
+| `config-dict-remove`  | `Remoive a key from a dict`                                            |
+| `config-diff`         | `Show all customized options`                                          |
+| `config-edit`         | `Open the config.py file in the editor.`                               |
+| `config-list-add`     | `Append a value t oa config option that is a list.`                    |
+| `config-list-remove`  | `Remove a value from a list.`                                          |
+| `config-source`       | `Read a config.py file.`                                               |
+| `config-unset`        | `Unset an option.`                                                     |
+| `config-write-py`     | `Write the current configuration to a config.py file.`                 |
+| `devtools`            | `Toggle the developer tools (Web inspector).`                          |
+| `devtools-focus`      | `Toggle focus between the devtools / tab.`                             |
+| `download`            | `Download a given URL or current page if no URL given, `               |
+| `download-cancel`     | `Cancel the last / [count]th download`                                 |
+| `download-clear`      | `Remove all finished downloads from the list.`                         |
+| `download-delete`     | `Delete the last / [count]th download.`                                |
+| `download-open`       | `Open the last / [count]th download`                                   |
+| `download-remove`     | `Remove the last / [count]th download from the list. `                 |
+| `download-retry`      | `Retry the first failed / [count]th download. `                        |
+| `edit-text`           | `Open an external editor with the current selected form field. `       |
+| `edit-url`            | `Navigate to a rl formed in an external editor. `                      |
+| `fake-key`            | `Send a fake keypress or key string to the website or qutebrowser. `   |
+| `forward`             | `Go forward in the history of the current tab. `                       |
+| `fullscreen`          | `Toggle fullscreen mode. `                                             |
+| `greasemonkey-reload` | `Re-read greasemonkey script from disk.`                               |
+| `help`                | `Show help about a command or setting. `                               |
+| 'hint'                | `start hinting`                                                        |
+| `hisgtory`            | `Show browsing history`                                                |
+| `history-clear`       | `Clear all browsing history.`                                          |
+| `home`                | `Open main startpage in current tab.`                                  |
+| `insert-text`         | `Insert text at cursor position.`                                      |
+| `jseval`              | `Evaluate a JavaScript string. `                                       |
+| `jump-mark`           | `Jump to the mark named by key`                                        |
+| `macro-record`        | `Start or stop recording a macro. `                                    |
+| `macro-run`           | `Run a recorded macro`                                                 |
+| `message-error`       | `Show an error message in the statusbar`                               |
+| `message-info`        | `Show an info message in the status bar `                              |
+| `message-warning`     | `Show a warning message in the status bar.`                            |
+| `messages`            | `Show a log of past messages`                                          |
+| `mode-enter`          | `Enter a key mode.`                                                    |
+| `navigate`            | `open typical prev/next links or navigate using the url path.`         |
+| `nop`                 | `Do nothing.`                                                          |
+| `open`                | `Openm a URL in the current / [count]th tab.`                          |
+| `print`               | `Print the current / [count]th tab.`                                   |
+| `process`             | `Manage processes spawned by qutebrowser`                              |
+| `quickmark-add`       | `Add a new quickmark`                                                  |
+| `quickmark-del`       | `Delete a quickmark`                                                   |
+| `quickmark-load`      | `Load a quickmark`                                                     |
+| `quickmark-save`      | `Save the current page as a quickmark`                                 |
+| `quit`                | `Quit quitebrowser.`                                                   |
+| `reload`              | `Reload the current / [count]th tab.`                                  |
+| `report`              | `Report a bug in quitebrowser.`                                        |
+| `restart`             | `Restart qutebrowser while keeping existing tabs open.`                |
+| `save`                | `Save configs and state.`                                              |
+| `screenshot`          | `Take a screenshot of the current shown part of the page. `            |
+| `scroll`              | `Scroll the current tab in the given direction.`                       |
+| `scroll-page`         | `Scroll the frame page-wise`                                           |
+| `scroll-px`           | `Scroll the current tab by count * dx/dy pixels.`                      |
+| `scroll-to-anchor`    | `Scroll to the given anchor in the document. `                         |
+| `scoll-to-perc`       | `Scroll to a specific percentage of the page. `                        |
+| `search`              | `Search for a text on the current page. With no text, clear results.`  |
+| `search-next`         | `Continue the search to the ([current]th) next term.`                  |
+| `search-prev`         | `Continue the search to the ([count]th) previous term.`                |
+| `selection-follow`    | `Follow the selected text. `                                           |
+| `sesson-delete`       | `Delete a session. `                                                   |
+| `session-load`        | `Load a session.`                                                      |
+| `session-save`        | `Save a session.`                                                      |
+| `set`                 | `Set an option`                                                        |
+| `set-mark`            | `Set a mark at the current scroll position in the current tab.`        |
+| `spawn`               | `Spawn an external command`                                            |
+| `stop`                | `Stop loading in the current / [count]th tab.`                         |
+| `tab-clone`           | `Duplicate the current tab.`                                           |
+| `tab-close`           | `Cloe the current / [count]th tab.`                                    |
+| `tab-focus`           | `Select the tab given as argument / [count]/`                          |
+| `tab-give`            | `Give the current tab to a new or existing window if win_id is given.` |
+| `tab-move`            | `move the current tab according to the argument and [count].`          |
+| `tab-mute`            | `Mute / Unmut the current / [count]th tab.`                            |
+| `tab-next`            | `Switch to the next tab, or switch [count] tabs forward.`              |
+| `tab-only`            | `Close all tabs except for the current one. `                          |
+| `tab-pin`             | `Pin / Unpin the current / [count]th tab.`                             |
+| `tab-prev`            | `Switch to the previous tab or switch [count] tabs back.`              |
+| `tab-select`          | `Select tab by index or url / title best match. `                      |
+| `tab-take`            | `Take a tab from another window. `                                     |
+| `unbind`              | `Unbind a keychain.`                                                   |
+| `undo`                | `Re-open the last closed tab(s) or window. `                           |
+| `version`             | `Show version information`                                             |
+| `view-source`         | `Show the source of the current page in a new tab.`                    |
+| `window-only`         | `Close all windows except for the current one. `                       |
+| `yank`                | `Yank (copy) something to the clipboard or primary selection.`         |
+| `zoom`                | `Select the zooom level for the current tab.`                          |
+| `zoom-in`             | `Increase the zoom level for the current tab. `                        |
+| `zoom-out`            | `Decrease the zoom level for the current tab.`                         |
+|-----------------------|------------------------------------------------------------------------|
 
 ---
 
@@ -699,6 +629,166 @@ While Qutebrowser doesn't support plugins in the traditional sense, users can le
 - **Backup Configuration:** Keep your `config.py` under version control (e.g., using Git) to track changes and facilitate migrations.
 
 ---
+
+## Setting Reference 
+
+### Setting Table 
+
+| Settings                                        | Descriptions |
+|-------------------------------------------------|--------------|
+| `alias`                                         |              |
+| `auto_save.interval`                            |              |
+| `auto_save.session`                             |              |
+| `backend`                                       |              |
+| `bindings.commands`                             |              |
+| `bindings.default`                              |              |
+| `bindgings.key_mappings`                        |              |
+| `changelo_after_upgrade`                        |              |
+| `colors.completion.categroy.bg`                 |              |
+| `colors.completion.category.border.bottom`      |              |
+| `colors.completion.category.border.top`         |              |
+| `colors.completion.category.fg`                 |              |
+| `colors.completion.even.bg`                     |              |
+| `colors.completion.fg`                          |              |
+| `colorscompletion.item.selected.bg`             |              |
+| `colors.completion.item.selected.border.bottom` |              |
+| `colors.completion.item.selected.boarder.top`   |              |
+| `colors.completion.item.selected.fg`            |              |
+| `colors.completion.item.selected.match.fg`      |              |
+| `colors.completion.match.fg`                    |              |
+| `colors.completion.odd.bg`                      |              |
+| `colors.completion.scrollbar.bg`                |              |
+| `colors.completion.scrollbar.fg`                |              |
+| `colors.contextmenu.disabled.bg`                |              |
+| `colors.contextmenu.disabled.fg`                |              |
+| `colors.contextmenu.menu.bg`                    |              |
+| `colors.contextmenu.menu.fg`                    |              |
+| `colors.contextmenu.selected.bg`                |              |
+| `color.contextmenu.selected.fg`                 |              |
+| `colors.downloads.bar.bg`                       |              |
+| `colors.downloads.error.bg`                     |              |
+| `colors.downloads.error.fg`                     |              |
+| `colors.downloads.start.bg`                     |              |
+| `colors.downloads.start.fg`                     |              |
+| `colors.downloads.stop.bg`                      |              |
+| `colors.downloads.stop.fg`                      |              |
+| `colors.downloads.system.bg`                    |              |
+| `colors.downloads.system.fg`                    |              |
+| `colors.hints.bg`                               |              |
+| `colors.hints.fg`                               |              |
+| `colors.hints.match.fg`                         |              |
+| `colors.keyhint.bg`                             |              |
+| `colors.keyhint.fg`                             |              |
+| `colors.keyhint.suffix.fg`                      |              |
+| `colors.messages.error.bg`                      |              |
+| `colors.messages.error.border`                  |              |
+| `colors.messages.error.fg`                      |              |
+| `colors.messages.info.bg`                       |              |
+| `colors.messages.info.border`                   |              |
+| `colors.messages.info.fg`                       |              |
+| `colors.messages.warning.bg`                    |              |
+| `colors.prompts.bg`                             |              |
+| `colors.prompts.border`                         |              |
+| `colors.prompts.fg`                             |              |
+| `colors.prompts.selected.bg`                    |              |
+| `colors.prompts.selected.fg`                    |              |
+| `colors.statusbar.caret.bg`                     |              |
+| `colors.statusbar.caret.fg`                     |              |
+| `colors.statusbar.caret.selection.bg`           |              |
+| `colors.statusbar.caret.selection.fg`           |              |
+| `colors.statusbar.command.fg`                   |              |
+| `colors.statusbar.command.private.bg`           |              |
+| `colors.statusbar.command.private.fg`           |              |
+| `colors.statusbar.insert.bg`                    |              |
+| `colors.statusbar.normal.bg`                    |              |
+| `colors.statusbar.normal.fg`                    |              |
+| `colors.statusbar.passthrough.bg`               |              |
+| `colors.statusbar.passthrough.fg`               |              |
+| `colors.statusbar.private.bg`                   |              |
+| `colors.statusbar.private.fg`                   |              |
+| `colors.statusbar.progress.bg`                  |              |
+| `colors.statusbar.url.error.fg`                 |              |
+| `colors.statusbar.url.fg`                       |              |
+| `colors.statusbar.url.hover.fg`                 |              |
+| `colors.statusbar.url.warn.fg`                  |              |
+| `colors.tabs.bar.bg`                            |              |
+| `colors.tabs.even.bg`                           |              |
+| `colors.tabs.even.fg`                           |              |
+| `colors.tabs.indicator.error`                   |              |
+| `colors.tabs.indicator.start`                   |              |
+| `colors.tabs.indicator.stop`                    |              |
+| `colors.tabs.indicator.system`                  |              |
+| `colors.tabs.odd.bg`                            |              |
+| `colors.tabs.odd.fg`                            |              |
+| `colors.tabs.pinned.even.bg`                    |              |
+| `colors.tabs.pinned.even.fg`                    |              |
+| `colors.tabs.pinned.odd.bg`                     |              |
+| `colors.tabs.pinned.odd.fg`                     |              |
+| `colors.tabs.pinned.selected.even.bg`           |              |
+| `colors.tabs.pinned.selected.even.fg`           |              |
+| `colors.tabs.pinned.selected.odd.bg`            |              |
+| `colors.tabs.pinned.selected.odd.fg`            |              |
+| `colors.tabs.selected.even.bg`                  |              |
+| `colors.tabs.selected.even.fg`                  |              |
+| `colors.tabs.selected.odd.bg`                   |              |
+| `colors.tabs.selected.odd.fg`                   |              |
+| `colors.tooltip.fg`                             |              |
+| `colors.webpage.bg`                             |              |
+| `colors.webpage.darkmode.algorithm`             |              |
+| `colors.webpage.darkmode.contrast`              |              |
+| `colors.webpage.darkmode.enabled`               |              |
+| `colors.webpage.darkmode.policy.images`         |              |
+| `colors.webpage.darkmode.policy.page`           |              |
+| `colors.webpage.darkmode.threshold.background`  |              |
+| `colors.webpage.darkmode.threshold.foreground`  |              |
+| `colors.webpage.preffered_color_scheme`         |              |
+| `completion.cmd_history_max_items`              |              |
+| `completion.delay`                              |              |
+| `completion.favorite_paths`                     |              |
+| `completion.height`                             |              |
+| `completion.min_chars`                          |              |
+| `completion.open_categories`                    |              |
+| `completion.quick`                              |              |
+| `completion.scrollbar.width`                    |              |
+| `completion.show`                               |              |
+| `completion.shrink`                             |              |
+| `completion.timestamp_format`                   |              |
+| `completion.use_best_match`                     |              |
+| `completion.web_history.exclude`                |              |
+| `completion.web_history.max_items`              |              |
+| `confirm_quit`                                  |              |
+| `content.autoplay`                              |              |
+| `content.blocking.adblock.lists`                |              |
+| `content.blocking.enabled`                      |              |
+| `content.blocking.hosts.block_subdomains`       |              |
+| `content.blocking.hosts.lists`                  |              |
+| `content.blocking.method`                       |              |
+| `content.blocking.whitelist`                    |              |
+| `content.cache.appcache`                        |              |
+| `content.cache.maximum_pages`                   |              |
+| `content.cache.size`                            |              |
+| `content.canvas_reading`                        |              |
+| `content.cookies.store`                         |              |
+| `content.default_encoding`                      |              |
+| `content.desktop_capture`                       |              |
+| `content.dns_prefetch`                          |              |
+| `content.frame_flattening`                      |              |
+| `content.fullscreen,overlay_timeout`            |              |
+| `content.fullscreen.window`                     |              |
+| `content.geolocation`                           |              |
+| `content.headers.accept_language`               |              |
+| `content.headers.custom`                        |              |
+| `content.headers.do_not_track`                  |              |
+| `content.headers.user_agent`                    |              |
+| `content.hyperlink_auditing`                    |              |
+|                                                 |              |
+
+
+
+
+
+
+
 
 ## Resources
 

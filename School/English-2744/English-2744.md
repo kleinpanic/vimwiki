@@ -7,6 +7,8 @@
 - [Journal4](Journal4)
 - [Journal5](Journal5)
 - [Journal6](Journal6)
+- [Journal7](Journal7)
+- [Journal-Week-5](Journal-Week-5)
 
 ## Writing Prompts
 - WritingPrompt1 
