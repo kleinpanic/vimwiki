@@ -7,6 +7,10 @@
 - [2024](Diary/2024)
 - [2025](Diary/2025)
 
+### Secrets 
+
+- [secret-index](secrets/secret-index)
+
 ### Personal
 
 - [Personal-Index](personal/Personal-Index)
