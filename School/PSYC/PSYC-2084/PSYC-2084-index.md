@@ -84,7 +84,7 @@ Optional Text: Greenberg, J., Schmader, T., Arndt, J., & Landau, M. (2021) Socia
 |---------|----------------------------------------|
 
 ## Notes 
-
+- [Psyc-Exam-1](Psyc-Exam-1)
 
 ## Homework Index 
 - [PSYC-2084-HW-index](HW/PSYC-2084-HW-index)
