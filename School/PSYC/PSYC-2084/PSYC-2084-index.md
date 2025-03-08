@@ -88,3 +88,7 @@ Optional Text: Greenberg, J., Schmader, T., Arndt, J., & Landau, M. (2021) Socia
 
 ## Homework Index 
 - [PSYC-2084-HW-index](HW/PSYC-2084-HW-index)
+
+## Assignment 
+- [Magical-Thinking-And-Superstitous-Behavior-Activity](Magical-Thinking-And-Superstitous-Behavior-Activity)
+- [IAmProject](IAmProject)

@@ -39,6 +39,8 @@
  - [qutebrowser](Computer-Science/OpenSource/qutebrowser) 
  - [DWM](Computer-Science/OpenSource/Suckless/DWM)
  - [ST](Computer-Science/OpenSource/Suckless/ST)
+ - [Linux](Linux)
+ - [ssh](ssh)
 
 ### Computer Science Index
 
@@ -55,6 +57,10 @@
 ### Projects-Documentation 
  - [Weather Projects](Projects-Documentation/Weather-Projects)
  - [KPChat](Projects-Documentation/KPChat)
+ - [fblogin](fblogin)
+ - [login-daemon](login-daemon)
+ - [kleinpanic.com](kleinpanic.com)
+ - [ScreenRecorder](ScreenRecorder)
 
 ### Conspiracy-Theories
  - [Conspiracy-Index](Conspiracy-Theories/Conspindex)

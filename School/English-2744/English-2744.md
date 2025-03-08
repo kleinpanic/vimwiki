@@ -10,6 +10,7 @@
 - [Journal7](Journal7)
 - [Journal-Week-5](Journal-Week-5)
 - [Journal-Week-6](Journal-Week-6)
+- [Journal-Week-7](Journal-Week-7)
 
 ## Writing Prompts
 - WritingPrompt1 
@@ -20,3 +21,4 @@
 
 ## HomeWork Assignments
 - [Short-Story](HomeworkAssignments/Short-Story)
+- [asynchronousAssignment](HomeworkAssignments/asynchronousAssignment)

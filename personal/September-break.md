@@ -1,0 +1,23 @@
+# Packing list 
+
+- Toiletries 
+- Guitar 
+- Amp 
+- Speaker 
+- Sweatpants 
+- No shirts 
+- Underwear 
+- Socks 
+- My nice sweatshirt 
+- Main laptop 
+- Chargers 
+- Xbox & switch
+- Monitor & charger 
+- Skis 
+- Ski bag 
+- Ski jacket 
+- Preworkout & Creatine 
+- Macbook
+- Macbook charger 
+- Fraternity Folder
+- Food 
