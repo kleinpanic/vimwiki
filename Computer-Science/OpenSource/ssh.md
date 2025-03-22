@@ -12,7 +12,7 @@
 
 ## General Info 
 
-The ecure Shell Protocol (SSH Protocol) is a crytpgraphic ntwork protocol for operating network services securely over an unsecured network. 
+The Secure Shell Protocol (SSH Protocol) is a crytpgraphic ntwork protocol for operating network services securely over an unsecured network. 
 Its most notable applications are remote login and command-line execution remotely. 
 SSh was designed for Unix-like operating systems as a replacement for Telnet and unsecured remote unix shell protocols, such as the Berkeley Remote Shell (rsh) and related rlogin and rexec protocols, which are all insecure, plaintext methods of authentications like passwords. 
 Since mechanisms like Telnet and Remote Shell and designed to access and operate remote computers, sending the authetnciation tokens (e.g username and password - not encrypted) for this access to these computers across a public network in an unsecured way poses a great risk of 4rd parties obtaining the password and achieving the same level of accerss to the remote system as the telnet user. Secure Shell mitigates this risk through the use of encryption mechanisms that are intended to hide the contents of the transmission from an observer, even if the observer has acess to the entire data stream. 
@@ -44,7 +44,7 @@ File managers ofr UNIX-like systems can use the FISH Protocol to provide a split
 
 ### Man pages 
 
-- [OpenSSH-Manual-Page-Index](OpenSSH-Manual-Page-Index)
+- [OpenSSH-Manual-Page-Index](sshDir/OpenSSH-Manual-Page-Index)
 - [Link](https://www.openssh.com/manual.html)
 
 

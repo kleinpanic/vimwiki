@@ -39,13 +39,14 @@
  - [qutebrowser](Computer-Science/OpenSource/qutebrowser) 
  - [DWM](Computer-Science/OpenSource/Suckless/DWM)
  - [ST](Computer-Science/OpenSource/Suckless/ST)
- - [Linux](Linux)
- - [ssh](ssh)
+ - [Linux](Computer-Science/OpenSource/Linux)
+ - [ssh](Computer-Science/OpenSource/ssh)
 
 ### Computer Science Index
 
 - [Machine-Learning-Index](MachineLearning/Machine-Learning-Index)
-- [libraries](libraries)
+- [libraries](MachineLearning/libraries)
+- [D-Bus](Computer-Science/D-Bus)
 
 ### School
 - [School-Index](School/School-Index)
@@ -57,10 +58,13 @@
 ### Projects-Documentation 
  - [Weather Projects](Projects-Documentation/Weather-Projects)
  - [KPChat](Projects-Documentation/KPChat)
- - [fblogin](fblogin)
- - [login-daemon](login-daemon)
- - [kleinpanic.com](kleinpanic.com)
- - [ScreenRecorder](ScreenRecorder)
+ - [fblogin](Projects-Documentation/fblogin)
+ - [login-daemon](Projects-Documentation/login-daemon)
+ - [kleinpanic.com](Projects-Documentation/kleinpanic.com)
+ - [ScreenRecorder](Projects-Documentation/ScreenRecorder)
+ - [AudioPipe](Projects-Documentation/AudioPipe) 
+ - [ForgeSetup](ForgeSetup)
+ - [LKM](LKM)
 
 ### Conspiracy-Theories
  - [Conspiracy-Index](Conspiracy-Theories/Conspindex)
