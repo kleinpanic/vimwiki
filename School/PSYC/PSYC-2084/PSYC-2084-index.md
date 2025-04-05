@@ -93,3 +93,4 @@ Optional Text: Greenberg, J., Schmader, T., Arndt, J., & Landau, M. (2021) Socia
 - [Magical-Thinking-And-Superstitous-Behavior-Activity](Magical-Thinking-And-Superstitous-Behavior-Activity)
 - [IAmProject](IAmProject)
 - [Social-Comparison-And-Social-Media-Use-Activity](Social-Comparison-And-Social-Media-Use-Activity)
+- [WhyDoWeNeedSelfEsteem-Activity](WhyDoWeNeedSelfEsteem-Activity)
