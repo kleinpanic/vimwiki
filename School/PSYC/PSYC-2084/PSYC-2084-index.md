@@ -94,3 +94,5 @@ Optional Text: Greenberg, J., Schmader, T., Arndt, J., & Landau, M. (2021) Socia
 - [IAmProject](IAmProject)
 - [Social-Comparison-And-Social-Media-Use-Activity](Social-Comparison-And-Social-Media-Use-Activity)
 - [WhyDoWeNeedSelfEsteem-Activity](WhyDoWeNeedSelfEsteem-Activity)
+
+- [ReflectionOnComplianceTacticsActivity](ReflectionOnComplianceTacticsActivity)

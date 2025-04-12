@@ -8,3 +8,22 @@
 - consider taking less credits. 
 - Interesting classes: CS2104
 - Java - brocode. 
+
+
+
+
+# Computer Science (CS) Minor Requirements:
+
+1. CS-1114 - Introduction to Software Design (3)
+    * or CS-2064 - Intermediate Programming in Python (3)
+2. CS-2114 - Software Design and Data Structures (3)
+> Taken over summer - CRN = 60856
+3. MATH-2534 - Introduction to Discrete Mathematics (3)
+4. CS-2505 - Introduction to Computer Organization (3)
+> Crn = 83511 - Won't let me join
+6. CS-3114 - Data Structures and Algorithms (3)
+7. CS 3/4/5XXX - CS Elective (3) 
+8. CS 3/4/5XXX - CS Elective (3) 
+   
+Others to take:
+
