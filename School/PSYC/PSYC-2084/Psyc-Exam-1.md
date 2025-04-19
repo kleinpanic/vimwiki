@@ -1,6 +1,4 @@
 # PSYCH Exam 1
-Below is a **comprehensive, in-depth document** that synthesizes and expands upon the major themes, theories, and research findings from the four PDF sources you provided—covering (1) **The Science of Social Psychology**, (2) **Fundamentals of Social Behavior**, (3) **Core Elements of Social Cognition**, and (4) **Thinking About People and Events**. It is designed to offer a **massive** amount of detail. Throughout, you will see citations to the PDFs (e.g., citeturn0file1) referencing where specific concepts were discussed.
-
 ---
 
 # Table of Contents

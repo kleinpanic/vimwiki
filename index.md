@@ -47,6 +47,7 @@
 - [Machine-Learning-Index](MachineLearning/Machine-Learning-Index)
 - [libraries](MachineLearning/libraries)
 - [D-Bus](Computer-Science/D-Bus)
+- [AudioEncodinandDigitalAudio](Computer-Science/AudioEncodinandDigitalAudio)
 
 ### School
 - [School-Index](School/School-Index)

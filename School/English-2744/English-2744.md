@@ -14,7 +14,7 @@
 - [Journal-Week-9](Journal-Week-9)
 - [Journal-Week-10](Journal-Week-10)
 - [Journal-Week-11](Journal-Week-11)
-- 
+- [Journal-Week-12](Journal-Week-12) 
 
 ## Writing Prompts
 - WritingPrompt1 
