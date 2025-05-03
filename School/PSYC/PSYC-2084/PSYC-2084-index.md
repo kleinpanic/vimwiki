@@ -84,16 +84,10 @@ Optional Text: Greenberg, J., Schmader, T., Arndt, J., & Landau, M. (2021) Socia
 |---------|----------------------------------------|
 
 ## Notes 
-- [Psyc-Exam-1](Psyc-Exam-1)
-- [Psyc-Exam-2](Psyc-Exam-2)
+- [Psyc-Exam-1](ExamPrep/Psyc-Exam-1)
+- [Psyc-Exam-2](ExamPrep/Psyc-Exam-2)
 
 ## Homework Index 
 - [PSYC-2084-HW-index](HW/PSYC-2084-HW-index)
 
-## Assignment 
-- [Magical-Thinking-And-Superstitous-Behavior-Activity](Magical-Thinking-And-Superstitous-Behavior-Activity)
-- [IAmProject](IAmProject)
-- [Social-Comparison-And-Social-Media-Use-Activity](Social-Comparison-And-Social-Media-Use-Activity)
-- [WhyDoWeNeedSelfEsteem-Activity](WhyDoWeNeedSelfEsteem-Activity)
 
-- [ReflectionOnComplianceTacticsActivity](ReflectionOnComplianceTacticsActivity)

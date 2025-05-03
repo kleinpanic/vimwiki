@@ -28,3 +28,9 @@
 - [asynchronousAssignment](HomeworkAssignments/asynchronousAssignment)
 - [PoetryAssignment-MiniManuscript](PoetryAssignment-MiniManuscript)
 - [CreativeNonFictionAssignment](CreativeNonFictionAssignment)
+
+## Revisions for workshops
+
+- [Owen](Owen)
+- [Peyton](Peyton)
+- [Collin](Collin) 

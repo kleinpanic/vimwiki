@@ -1,0 +1,32 @@
+# Music Theory Field Critical Analysis:
+
+In September of 2020, Adam Neely released *Music Theory and White Supremacy*, a forty-ish minute essay that explored a much needed conversation about the racial framing of music theoretical pedagogy. The video draws heavy influence on Philip A Ewell's article "Music Theory and the White Racial Frame" (2020), and Neely challenges the presumptions that the eighteenth century Germanic harmonic style is "music theory" full stop.
+
+## Neely's and Ewell's Main Points - Summary: 
+
+Neely begins by noting that most undergraduate theory curricula treat part writing rules derived from Bach chorales as universal musical grammar.
+He argues that this outlook arises from America’s broader “white racial frame,” a concept he borrows from Ewell, in which white cultural products are centered and normalized while non white ones are marked as exotic or supplementary. 
+Using Heinrich Schenker as a case study, Neely shows that influential theorists often espoused explicitly racist hierarchies; Schenker’s writings praise “the German genius” and denigrate “inferior races,” linking musical worth to white European identity. Ewell’s article supplies the statistical and conceptual backbone for this claim: as of 2018, over 84 percent of Society for Music Theory members were white, and 93.9 percent of associate/full professors in the field were white, numbers that reveal both literal and structural whiteness in the discipline. 
+
+Ewell further contends that music theory’s canonization practices—who appears on brand, which analytical methods are valorized—function as “racialized structures” that reproduce whiteness. He advocates “deframing and reframing” the curriculum: interrogating our reliance on hierarchical models (such as Schenkerian analysis) and foregrounding repertoires and theoretical systems from the African diaspora, Asia, the Indigenous Americas, and beyond. 
+Neely translates these points into accessible anecdotes, from his jazz education experiences to examples of non-Western tunings, illustrating that the supposed neutrality of Western common practice harmony is historically contingent and racially coded. The video concludes by urging educators to decouple “musicianship” from “whiteness” and to imagine theory as a pluriverse of analytical lenses rather than a single ladder toward the European art-music pinnacle. 
+
+## Assumptions in Music Fundamentals: 
+
+The course objectives of the class emphasie reading staff notation, constructing major/minor scales, identifying diatonic intervals, labeling triads and dominant sevenths, analyzing cadences, and composing species counterpoint—all skills rooted in Western art music conventions, as explored by Neely and Ewell.
+The OnMusic Fundamentals table of contents reinforces this bias: Units on the keyboard, clefs, major/minor scales, figured bass triads, Roman numeral harmonic analysis, and perfect–imperfect cadences carve a straight path through eighteenth and nineteenth century European tonal practice.
+When exploring the course work, we can see that  Implicit throughout are the “Three B’s” (Bach, Beethoven, Brahms). Even when the textbook gestures to “modes” or “non-diatonic scales,” these topics appear as colorful addenda to the central major/minor system rather than as gateways to, say, raga theory or Andean pentatonic traditions. The voices of Black theorists such as Olly Wilson, Latino/a scholars like Carlos Almada, or Indigenous musicians working in alternate tuning frameworks are nowhere to be found.
+There is scant mention of African musics whose harmonic languages diverge from functional tonality; nor do we see modules on taqsim, gagaku, or gamelan metric cycles. Jazz, when it surfaces, is often pressed into a tonal-centric mold (“secondary dominants”) rather than analyzed on its own improvisational and rhythmic terms. By contrast, Schenker’s linear-progression theory, conceived in a nationalist context that equated German musical “genius” with racial superiority, is normalized as an epitome of structural hearing—for many, their first exposure to large scale analysis. Ewell identifies precisely this collapse of “European” into “universal” as the mechanism by which the white racial frame perpetuates itself. 
+When we take a broad look at the course, the very architecture of OnMusic Fundamental, exams anchored to key signatures, harmonic progressions, and diatonic cadences—signals to students that mastery equals fluency in Western tonality. 
+Cultural contexts appear only insofar as they serve to historicize that tonal system; sounds that operate outside it are rendered invisible. Such framing mirrors the wider classical music landscape that Alex Ross describes, wherein Black composers and non Western aesthetics are tokenized or excluded outright 
+
+## Personal Reflection: 
+
+Encountering Neely’s video alongside Ewell’s paper forced me to confront the narrowness of the skill set we are currently cultivating. 
+While the course promises “a historical context for the development of Western music,” it risks conflating that context with music writ large. I recognize that the fluency I am gaining in staff notation, common practice voice leading, and Roman numeral analysis—equips me to dissect a Mozart divertimento or a Broadway ballad but leaves me ill prepared to analyze a maqam improvisation, a D’Angelo groove, or a Javanese gendhing.
+Does Music Theory Fundamentals allow me to analyze “any” kind of music? Only in the limited sense that I might force fit non Western pieces into a Western grid, stripping them of microtonal nuance or cyclical form. True universality would require a tool box that includes rhythmic modal theory, spectromorphology, and oral tradition transcription methods—not to mention a critical vocabulary for discussing power, identity, and race in music making. Ewell warns against “solutionism,” the rush to patch gaps without dismantling the underlying frame; yet meaningful change begins with expanding what counts as theory and whose knowledge is authoritative.
+
+Moving forward, and to have music theory move beyond its white supremacist perimeter, we need multiple literacies / skills, such as an understanding of the folowing:
+2. Contextual scholarship—reading ethnomusicology.
+3. Aural diversity ear training that makes use of non equal temperament intervals and complex polyrhythms.
+4. Collaborative working of musicians from marginalized traditions to design modules for the field.

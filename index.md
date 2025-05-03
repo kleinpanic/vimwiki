@@ -1,4 +1,4 @@
-# Neovim Wiki
+# Nvim Wiki
 
 ## Table of Contents
 
@@ -41,6 +41,7 @@
  - [ST](Computer-Science/OpenSource/Suckless/ST)
  - [Linux](Computer-Science/OpenSource/Linux)
  - [ssh](Computer-Science/OpenSource/ssh)
+ - [MultiMedia-codex-and-containers-index](Computer-Science/MultiMedia-codex-and-containers-index)
 
 ### Computer Science Index
 
@@ -48,6 +49,10 @@
 - [libraries](MachineLearning/libraries)
 - [D-Bus](Computer-Science/D-Bus)
 - [AudioEncodinandDigitalAudio](Computer-Science/AudioEncodinandDigitalAudio)
+- [File-Formats-Wiki](File-Formats-Wiki)
+
+### Hacking Wiki
+- [Hacking-Wiki](Hacking-Wiki)
 
 ### School
 - [School-Index](School/School-Index)
