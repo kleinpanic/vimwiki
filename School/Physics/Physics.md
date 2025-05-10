@@ -1,4 +1,4 @@
-#Physics
+# Physics
 
 ## Lab  
 - [Ethics](Ethics)
@@ -19,5 +19,8 @@
         - If required, convert the answer back to a vector (Mag and Dir)
     - Position of a particle with respect to an observe is a Vector Rho-Arroy(t). 
 - Scalors
-    - Magnitude without a direction. 
+    - Magnitude without a direction.
 
+# TOC: 
+
+[Final-Review](Final-Review)

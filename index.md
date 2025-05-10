@@ -42,6 +42,9 @@
  - [Linux](Computer-Science/OpenSource/Linux)
  - [ssh](Computer-Science/OpenSource/ssh)
  - [MultiMedia-codex-and-containers-index](Computer-Science/MultiMedia-codex-and-containers-index)
+ - [Clipboard-Manager](Computer-Science/Clipboard-Manager)
+ - [Flipper-Zero](Flipper-Zero)
+ - [udev](udev)
 
 ### Computer Science Index
 
@@ -71,6 +74,7 @@
  - [AudioPipe](Projects-Documentation/AudioPipe) 
  - [ForgeSetup](ForgeSetup)
  - [LKM](LKM)
+ - [Transmuter](Transmuter)
 
 ### Conspiracy-Theories
  - [Conspiracy-Index](Conspiracy-Theories/Conspindex)
