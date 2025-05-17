@@ -86,6 +86,7 @@ Optional Text: Greenberg, J., Schmader, T., Arndt, J., & Landau, M. (2021) Socia
 ## Notes 
 - [Psyc-Exam-1](ExamPrep/Psyc-Exam-1)
 - [Psyc-Exam-2](ExamPrep/Psyc-Exam-2)
+- [Psyc-Exam-Final](ExamPrep/Psyc-Exam-Final)
 
 ## Homework Index 
 - [PSYC-2084-HW-index](HW/PSYC-2084-HW-index)

@@ -88,6 +88,8 @@
  - [PromptEngineeringForChatGPT](PromptEngineeringForChatGPT)
  - 
 
+### Strudel
+- [Strudel-songs-I-Like](Strudel/Strudel-songs-I-Like)
 
 
 

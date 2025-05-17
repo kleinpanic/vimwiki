@@ -7,7 +7,7 @@
     - Operating Scene: Not much is known about speaker (me). What do I myself believe? - the purpose was to envoke these questions.
 - Imagery itself is decent. Add more emotional context for myself? Relate to the patient itself?
 - Tendencies to repeat in some areas? - idk where yet. "Calmly, Meticulously, ..." - Make it dynamic? Have it go somewhere new each time? Slightly different images in the operating room.
-- Vocabulary is too complex for an outside reader w/ very little prior knowledge. Ontology is not oncology. I think this class might be dumb.
+- Vocabulary is too complex for an outside reader w/ very little prior knowledge. 
 - Break up - include personal perspective or patient perspective. What is awarenes for this patient? What sensations and expeirences define their existence?
 - Paragraph 4 - Elaborate more on the expereince of the patient. Its not well understead if its worded for me, or the patient. 
 - I would like to make it as true to the actual experience as possible.
