@@ -2,11 +2,6 @@
 
 ## Table of Contents
 
-### Diary
-
-- [2024](Diary/2024)
-- [2025](Diary/2025)
-
 ### Secrets 
 
 - [secret-index](secrets/secret-index)
@@ -45,6 +40,7 @@
  - [Clipboard-Manager](Computer-Science/Clipboard-Manager)
  - [Flipper-Zero](Flipper-Zero)
  - [udev](udev)
+ - [Unsorted-Knowledge](Unsorted-Knowledge)
 
 ### Computer Science Index
 

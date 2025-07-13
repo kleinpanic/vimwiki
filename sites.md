@@ -1,11 +1,97 @@
+<details>
+    <summary>TOC</summary>
+<!-- TOC start (generated with https://github.com/derlin/bitdowntoc) -->
+
+- [3D printing](#3d-printing)
+- [AI](#ai)
+   * [LLM](#llm)
+   * [Image Generation](#image-generation)
+- [Alternative frontends/software alternatives](#alternative-frontendssoftware-alternatives)
+- [Android](#android)
+- [APIs](#apis)
+- [Art](#art)
+- [ASL](#asl)
+- [Biology](#biology)
+   * [Botany](#botany)
+- [Building/Making](#buildingmaking)
+- [C](#c)
+- [C++](#c-1)
+- [Chemistry](#chemistry)
+- [College courses](#college-courses)
+- [Computer science](#computer-science)
+- [Data](#data)
+   * [Archives](#archives)
+- [Email](#email)
+   * [Mutt](#mutt)
+- [Events](#events)
+- [File sharing](#file-sharing)
+   * [Pastebins](#pastebins)
+- [Geography](#geography)
+- [Hacking](#hacking)
+- [Hardware](#hardware)
+- [HTML](#html)
+- [IOS](#ios)
+- [IRC](#irc)
+- [Java](#java)
+- [Javascript](#javascript)
+- [JSON](#json)
+- [Language](#language)
+- [Language input methods](#language-input-methods)
+- [Linguistics](#linguistics)
+- [Linux](#linux)
+- [Lisp](#lisp)
+- [Literature](#literature)
+   * [Annas archive](#annas-archive)
+- [Local network](#local-network)
+- [Markdown](#markdown)
+- [Math](#math)
+   * [Tools](#tools)
+   * [Practice](#practice)
+- [Miscellaneous](#miscellaneous)
+- [Music](#music)
+- [News](#news)
+- [Novelty](#novelty)
+   * [MOTHERFUCKING WEBSITES](#motherfucking-websites)
+- [Online file conversion](#online-file-conversion)
+- [Origami](#origami)
+- [Papers](#papers)
+- [Physics](#physics)
+- [Pinephone](#pinephone)
+   * [Posmarketos](#posmarketos)
+   * [Mobian](#mobian)
+   * [Hardware ](#hardware-1)
+- [Pirating/Free Media](#piratingfree-media)
+- [Python](#python)
+- [SH](#sh)
+   * [BASH](#bash)
+   * [ZSH](#zsh)
+- [Society](#society)
+- [Suckless](#suckless)
+   * [DWM](#dwm)
+   * [Surf](#surf)
+- [Torrent](#torrent)
+- [Travel](#travel)
+- [Video](#video)
+   * [Pirate streaming](#pirate-streaming)
+   * [Archive](#archive)
+- [Vim](#vim)
+   * [Livepreview nvim (checkout)](#livepreview-nvim-checkout)
+- [YAML](#yaml)
+
+<!-- TOC end -->
+</details>
+
+--------------------------------------------------------------------------------
+
 ## 3D printing
 - [free stls](https://www.printables.com/)
 
----
+--------------------------------------------------------------------------------
 
 ## AI
 
 ### LLM
+- [ollama weights](https://github.com/shawwn/llama-dl/)
 - [ai internet search](https://perplexity.ai)
 - [emotional ai?](https://pi.ai)
 - [ollama libs](https://ollama.com/library)
@@ -24,10 +110,12 @@
 - [noowai](https://noowai.com/)
 - [coding help](https://www.phind.com/)
 - [ai search engine](https://iask.ai/)
+- [LaTeX formula to PNG (transparent background)](https://products.aspose.app/tex/equation-editor/png)
 
----
+--------------------------------------------------------------------------------
 
 ## Alternative frontends/software alternatives
+- [alternative front ends github repo](https://github.com/Myzel394/awesome-alternative-frontends)
 - [open source alternatives](https://news.ycombinator.com/item?id=41979332)
 - [find software alternatives](https://alternativeto.net/)
 - [alternative frontends](https://github.com/mendel5/alternative-front-ends)
@@ -38,19 +126,15 @@
 - [youtube music](https://beatbump.io/)
 - [tiktok](https://proxitok.pabloferreiro.es/)
 
----
+--------------------------------------------------------------------------------
 
 ## Android
 - [towelroot](https://towelroot.com/)
 
----
+--------------------------------------------------------------------------------
 
-## IOS
-- [complete ios jailbreaking guide](https://ios.cfw.guide/)
-
----
-
-## Apis
+## APIs
+- [LRCLIB (lyrics api)](https://lrclib.net/)
 - [public apis](https://publicapis.io/)
 - [song lyrics api](https://publicapis.io/lyrics.ovh-api)
 - [cas api](https://github.com/aunyks/newton-api)
@@ -64,7 +148,13 @@
 - [http cats](https://http.cat)
 - [chemical data](https://chem.libretexts.org/Courses/University_of_Arkansas_Little_Rock/ChemInformatics_(2015)%3A_Chem_4399_5399/Text/8_Interacting_with_Databases%3A_Desktop_and_Web_based_Applications)
 
----
+--------------------------------------------------------------------------------
+
+## Art
+- [ascii art from image](https://asciiart.club/)
+- [royalty free images](https://unsplash.com/)
+
+--------------------------------------------------------------------------------
 
 ## ASL
 - [asl resource](https://www.lifeprint.com/)
@@ -72,30 +162,10 @@
 - [signasl](https://signasl.org)
 - [finger spelling quiz](https://asl.ms)
 
----
-
-## Bash
-- [image to scan with imagemagick](https://superuser.com/questions/693339/batch-processing-images-of-documents-to-look-like-a-fax)
-- [bash to zsh](https://www.bash2zsh.com/)
-- [ranger image preview](https://github-wiki-see.page/m/ranger/ranger/wiki/Image-Previews)
-- [lf with image preview](https://github.com/LukeSmithxyz/voidrice/tree/master/.config/lf)
-- [youtube in terminal](https://www.makeuseof.com/watch-youtube-videos-in-linux-terminal/)
-- [screen record and video](https://girishjoshi.io/post/screen-recording-with-webcam-overlay-using-ffmpeg/)
-- [screen record](https://trac.ffmpeg.org/wiki/Capture/Desktop)
-- [connect to eduroam with wpa_supplicant](https://docs.gwdg.de/doku.php?id=en:services:network_services:eduroam:linux_wpa_supplicant)
-- [bash scripting tutorial](https://bash.cyberciti.biz/guide/Main_Page)
-
----
+--------------------------------------------------------------------------------
 
 ## Biology
 
-### Botany
-- [edible wild food](https://www.ediblewildfood.com/)
-- [pa plant society](https://www.panativeplantsociety.org/native-plant-id.html)
-- [wildflower search](https://wildflowersearch.org)
-- [biolib encyclopedia of plants, fungi, and animals](https://www.biolib.cz/en/main/)
-- [plant identification](https://gobotany.nativeplanttrust.org/simple/)
-- [tree identification guide](https://www.arborday.org/trees/whattree/)
 - [fda public drug research resources](https://www.fda.gov/drugs/science-and-research-drugs/research-tools-and-resources)
 - [national library of medicine](https://www.ncbi.nlm.nih.gov)
 - [protein data bank](https://www.rcsb.org/)
@@ -108,44 +178,31 @@
 - [catalogue of world species](https://www.catalogueoflife.org/)
 - [taxonomy browser](https://www.ncbi.nlm.nih.gov/taxonomy)
 
----
+### Botany
+- [biolib encyclopedia of plants, fungi, and animals](https://www.biolib.cz/en/main/)
+- [edible wild food](https://www.ediblewildfood.com/)
+- [pa plant society](https://www.panativeplantsociety.org/native-plant-id.html)
+- [wildflower search](https://wildflowersearch.org)
+- [plant identification](https://gobotany.nativeplanttrust.org/simple/)
+- [tree identification guide](https://www.arborday.org/trees/whattree/)
 
-## Blogs/personal sites
-- [antirez](https://antirez.com/rss)
-- [asterisk](https://asteriskmag.com/feed)
-- [parenthetically speaking](https://parentheticallyspeaking.org/)
-- [catb](http://www.catb.org/~esr/)
-- [ejmastnak](https://ejmastnak.com/)
-- [dave gauer (ratfactor)](https://ratfactor.com/)
-- [gray mirror](https://graymirror.substack.com/)
-- [unqualified reservations](https://www.unqualified-reservations.org/)
-- [gnu](https://gnu.org)
-- [roger williams](http://localroger.com/)
-- [john salvatier](http://johnsalvatier.org/blog/)
-- [milan cvitkovic](https://milan.cvitkovic.net/)
-- [peter watts](https://www.rifters.com/crawl/)
-- [castel](https://castel.dev/)
-- [paul graham](http://paulgraham.com/articles.html)
-- [george hotz](https://geohot.github.io/blog)
-- [scott aaronson](https://scottaaronson.blog)
+--------------------------------------------------------------------------------
 
----
-
-## Building/making
+## Building/Making
 - [what kind of adhesive is needed?](https://www.thistothat.com/)
 
----
+--------------------------------------------------------------------------------
 
 ## C
 - [gnu c reference manual](https://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html)
 - [c practice](https://www.w3resource.com/c-programming-exercises/)
 
----
+--------------------------------------------------------------------------------
 
 ## C++
-- [c++ reference](https://cplusplus.com/)
+- [C++ Reference](https://cplusplus.com/)
 
----
+--------------------------------------------------------------------------------
 
 ## Chemistry
 - [electrochemical series](https://diverdi.colostate.edu/all_courses/CRC%20reference%20data/electrochemical%20series.pdf)
@@ -153,9 +210,18 @@
 - [redox reaction balancer](https://www.periodni.com/half-reaction_method.php)
 - [useful chemistry tools](https://www.periodni.com/)
 
----
+--------------------------------------------------------------------------------
+
+## College courses
+- [unix system programming](https://cscie28.dce.harvard.edu/)
+- [mit opencourseware](https://ocw.mit.edu/)
+- [stanford online](https://online.stanford.edu/free-courses)
+- [online courses](https://www.edx.org/)
+
+--------------------------------------------------------------------------------
 
 ## Computer science
+- [Wikifunctions](https://www.wikifunctions.org/wiki/Wikifunctions:Main_Page)
 - [plan 9 download](https://plan9.io/plan9/download.html)
 - [todo.txt format](https://github.com/todotxt/todo.txt)
 - [cat-v](http://cat-v.org/)
@@ -172,28 +238,15 @@
 - [mega cs project list](https://github.com/karan/projects)
 - [git tutorial](https://www.atlassian.com/git/tutorials/)
 
----
-
-## College courses
-- [unix system programming](https://cscie28.dce.harvard.edu/)
-- [mit opencourseware](https://ocw.mit.edu/)
-- [stanford online](https://online.stanford.edu/free-courses)
-- [online courses](https://www.edx.org/)
-
----
+--------------------------------------------------------------------------------
 
 ## Data
+- [Datasets - Anna’s Archive](https://annas-archive.org/datasets)
 - [pubchem](https://pubchem.ncbi.nlm.nih.gov/)
 - [known chemical search](https://www.chemicalcompanion.org/)
 - [database of hazardous materials](https://cameochemicals.noaa.gov/)
 - [ncbi datasets](https://github.com/ncbi/datasets)
 - [mediawiki installation](https://m.mediawiki.org/wiki/Manual:Installing_MediaWiki)
-
-### Archives
-- [wayback machine archive download](https://github.com/cocoflan/wayback-machine-downloader)
-- [national archives](https://www.archives.gov/)
-- [internet archive](https://archive.org/)
-- [nytimes crossword puz files archive](https://archive.org/details/nyt-puz)
 - [list of online databases](https://en.wikipedia.org/wiki/List_of_online_databases)
 - [google trends](https://trends.google.com)
 - [our world in data](https://ourworldindata.org)
@@ -202,26 +255,38 @@
 - [kaggle datasets](https://www.kaggle.com/datasets)
 - [corgis dataset](https://corgis-edu.github.io/corgis/)
 
----
+### Archives
+- [archived sites](https://archive.ph/)
+- [wayback machine archive download](https://github.com/cocoflan/wayback-machine-downloader)
+- [national archives](https://www.archives.gov/)
+- [internet archive](https://archive.org/)
+- [nytimes crossword puz files archive](https://archive.org/details/nyt-puz)
 
-## Different language input methods
-- [sketch to latex](http://detexify.kirelabs.org/classify.html)
-- [russian keyboard](https://www.lexilogos.com/keyboard/russian.htm)
-- [drawing to hanzi](https://www.qhanzi.com)
-- [drawing to kanji](https://kanji.sljfaq.org/)
-- [drawing to kanji, hiragan, katakana](https://www.drawjapanese.com/)
+--------------------------------------------------------------------------------
 
----
+## Email
+- [dismail](https://dismail.de/register.html)
+- [riseup](https://riseup.net/en/email/settings/mail-accounts)
+- [outlook with fdm](https://github.com/nicm/fdm/issues/100)
+- [list of email providers](https://diggy.club/articles/email.xhtml)
+- [best free secure email service](https://www.reddit.com/r/privacy/comments/40i3dp/best_free_secure_email_service/)
+
+### Mutt
+- [mutt-wizard](https://github.com/LukeSmithxyz/mutt-wizard)
+- [neomutt useful programs](https://neomutt.org/contrib/useful-programs)
+- [neomutt samples](https://github.com/neomutt/samples)
+
+--------------------------------------------------------------------------------
 
 ## Events
 - [blacksburg and christiansburg](http://nextthreedays.com/)
 - [meetups](https://meetup.com)
 
----
+--------------------------------------------------------------------------------
 
 ## File sharing
-- [more arbitrary file hosting](http://oshi.at)
-- [arbitrary file hosting](http://0x0.st)
+- [arbitrary file hosting (0x0)](http://0x0.st)
+- [more arbitrary file hosting (oshi)](http://oshi.at)
 - [file.io](https://www.file.io)
 - [gofile.io](https://www.gofile.io)
 - [pastebin and file sharing](https://paste.c-net.org/)
@@ -232,15 +297,17 @@
 - [link to an image](https://postimages.org/)
 - [dpaste pastebin](https://dpaste.com)
 
----
+--------------------------------------------------------------------------------
 
 ## Geography
+- [trail run project](https://www.trailrunproject.com/)
+- [overpass turbo (programmatic location filter)](http://overpass-turbo.eu/)
 - [map of power outages in the us](https://poweroutage.us/)
 - [map of networks](https://wigle.net/)
 - [open street map](https://www.openstreetmap.org/)
 - [earth-ocean interacton program](https://www.pmel.noaa.gov/eoi)
 
----
+--------------------------------------------------------------------------------
 
 ## Hacking
 - [ip information api](http://ip-api.com/json/)
@@ -259,8 +326,6 @@
 - [hacker cheat sheet](https://github.com/hackerschoice/thc-tips-tricks-hacks-cheat-sheet)
 - [latest user agents](https://www.useragents.me/)
 - [dictionary attack repos](https://github.com/topics/wordlist-generator)
-
-### Tools
 - [person lookup](https://truepeoplesearch.com)
 - [whois lookup](https://who.is)
 - [instagram account viewer1](https://inflact.com/profiles/instagram-viewer/)
@@ -282,40 +347,52 @@
 - [over the wire](https://overthewire.org/wargames)
 - [100,000 most common passwords](https://github.com/wikimedia/common-passwords)
 
----
+--------------------------------------------------------------------------------
 
 ## Hardware
 - [harddisk prices](https://diskprices.com/)
 
----
+--------------------------------------------------------------------------------
 
-## Java
-- [java to uml](https://code2uml.streamlit.app/)
-
----
-
-## Javascript
-- [greasemonkey script search](https://greasyfork.org/en)
-
----
-
-## Html
+## HTML
 - [color from image](https://html-color-codes.info/colors-from-image/)
 - [hex color darkener](https://mdigi.tools/lighten-color/)
 - [acid3 test](http://acid3.acidtests.org/)
 - [color lightener](https://mdigi.tools/lighten-color)
 
----
+--------------------------------------------------------------------------------
 
-## Json
+## IOS
+- [complete ios jailbreaking guide](https://ios.cfw.guide/)
+
+--------------------------------------------------------------------------------
+
+## IRC
+
+[irc search engine](https://www.ircdriven.com/)
+
+--------------------------------------------------------------------------------
+
+## Java
+- [java to uml](https://code2uml.streamlit.app/)
+
+--------------------------------------------------------------------------------
+
+## Javascript
+- [greasemonkey script search](https://greasyfork.org/en)
+
+--------------------------------------------------------------------------------
+
+## JSON
 - [json to yaml](https://json2yaml.com/)
 - [json parser](http://json.parser.online.fr/)
 - [json linter and beautifier](https://codebeautify.org/jsonviewer)
 - [json validator](https://jsonlint.com/)
 
----
+--------------------------------------------------------------------------------
 
 ## Language
+- [free online language courses (librelingo)](https://librelingo.app/)
 - [wordnet (online lexical database for english)](https://wordnet.princeton.edu/)
 - [catalog of language families](https://glottolog.org/)
 - [mots aléatoires en français](https://www.motsaleatoires.com/)
@@ -329,17 +406,26 @@
 - [GNU Collaborative International Dictionary of English](https//gcide.gnu.org.ua/)
 - [rhymes](https://www.rhymezone.com/)
 
----
+--------------------------------------------------------------------------------
+
+## Language input methods
+- [sketch to latex](http://detexify.kirelabs.org/classify.html)
+- [russian keyboard](https://www.lexilogos.com/keyboard/russian.htm)
+- [drawing to hanzi](https://www.qhanzi.com)
+- [drawing to kanji](https://kanji.sljfaq.org/)
+- [drawing to kanji, hiragan, katakana](https://www.drawjapanese.com/)
+
+--------------------------------------------------------------------------------
 
 ## Linguistics
 - [syntax tree generator](https://mshang.ca/syntree/)
 - [ipa learning tool](http://web.mit.edu/6.mitx/www/24.900%20IPA/IPAapp.html)
 
----
+--------------------------------------------------------------------------------
 
 ## Linux
+- [Linux Questions Wiki](https://wiki.linuxquestions.org/wiki)
 - [very small linux system](http://tinycorelinux.net/)
-- [linux graphics stack](https://www.reddit.com/r/linux/comments/36zcsw/a_brief_introduction_to_the_linux_graphics_stack/)
 - [scanned image extractor](http://www.dominik-ruess.de/scannerExtract/#idp64310096)
 - [imagemagick checkout](http://www.imagemagick.org/discourse-server/viewtopic.php?f=2&t=10762)
 - [imagemagick scripts](http://www.fmwconcepts.com/imagemagick/multicrop/index.php)
@@ -353,14 +439,23 @@
 - [merge filesystems](https://github.com/trapexit/mergerfs/commit/d699a97928691f76aed59cff2f0c379e68db97dd)
 - [try different linux distros online](https://distrosea.com/)
 
----
+--------------------------------------------------------------------------------
+
+## Lisp
+- [lisp reference](https://users.cs.jmu.edu/adamses/Web/CS%20430%20Fall%202004/Code%20Examples/My%20LISP%20Stuff/LISP.htm)
+- [lisp book](https://www.cs.cmu.edu/~dst/LispBook/book.pdf)
+
+--------------------------------------------------------------------------------
 
 ## Literature
+- [reddit book recommendations](https://www.redditreads.com/)
+- [high quality ebooks](https://standardebooks.org/)
 - [libgen.li](http://libgen.li/ )
+- [libgen.rs](http://libgen.rs/ )
+- [libgen.st](http://libgen.st/ )
 - [oceanofpdf (free pdf books)](https://oceanofpdf.com/)
 - [reactor mag](https://reactormag.com/)
 - [short text books](https://libretexts.org/)
-- [anna's archive](https://annas-archive.org/)
 - [project gutenberg](https://www.gutenberg.org/ebooks/)
 - [online epub reader](https://epubreader.net/)
 - [literary encyclopedia](https://www.litencyc.com/)
@@ -374,64 +469,26 @@
 - [free online books](http://online-literature.com)
 - [libgen.rs (free books, scientific journals, comics, etc.)](http://libgen.rs/)
 
----
 
-## Pinephone
-- [sxmo source (contains useful scripts that can work on pmos with little modification)](https://sxmo.org/source)
+### Annas archive
+- [anna's archive](https://annas-archive.org/)
+- [Anna's Archive dns working in italy](https://annas-archive.li)
 
-### Posmarketos
-- [install build dependencies postmarketos (and other stuff)](https://wiki.postmarketos.org/wiki/Terminal_cheat_sheet)
-- [up/downgrade postmarketos](https://wiki.postmarketos.org/wiki/Upgrade_to_a_newer_postmarketOS_release)
-- [postmarketos](https://wiki.postmarketos.org/wiki/PINE64_PinePhone_(pine64-pinephone))
-- [call testing service](https://testcall.com/804-222-1111/)
-- [phone features and their star codes](https://people.cs.rutgers.edu/~watrous/phone-features.html)
-- [photo gallery](https://thumbsup.github.io/)
-
-### Mobian
-- [install mobian](https://wiki.mobian-project.org/doku.php?id=install)
-- [mobian apps](https://wiki.mobian-project.org/doku.php?id=apps)
-
-### Hardware 
-- [replacement battery](https://amazon.com/dp/B07M9TWXPZ)
-- [potential pinephone replacement battery with larger energy](https://www.reddit.com/r/pinephone/comments/majkr1/what_is_the_current_best_os_for_the_pinephone_in/)
-
----
-
-## Lisp
-- [lisp reference](https://users.cs.jmu.edu/adamses/Web/CS%20430%20Fall%202004/Code%20Examples/My%20LISP%20Stuff/LISP.htm)
-- [lisp book](https://www.cs.cmu.edu/~dst/LispBook/book.pdf)
-
----
+--------------------------------------------------------------------------------
 
 ## Local network
 - [openwrt](https://en.wikipedia.org/wiki/OpenWrt)
 - [printers on local network](http://localhost:631/printers)
 
----
+--------------------------------------------------------------------------------
 
 ## Markdown
 - [markdown preview](https://markdownlivepreview.com/)
 
----
-
-## Email
-
-### Mutt
-- [mutt-wizard](https://github.com/LukeSmithxyz/mutt-wizard)
-- [neomutt useful programs](https://neomutt.org/contrib/useful-programs)
-- [neomutt samples](https://github.com/neomutt/samples)
-- [dismail](https://dismail.de/register.html)
-- [riseup](https://riseup.net/en/email/settings/mail-accounts)
-- [outlook with fdm](https://github.com/nicm/fdm/issues/100)
-- [list of email providers](https://diggy.club/articles/email.xhtml)
-- [best free secure email service](https://www.reddit.com/r/privacy/comments/40i3dp/best_free_secure_email_service/)
-- [allow less secure apps gmail](https://myaccount.google.com/lesssecureapps)
-- [himalaya client](https://github.com/soywod/himalaya)
-- [aerc](https://github.com/rjarry/aerc)
-
----
+--------------------------------------------------------------------------------
 
 ## Math
+- [Polyhedra Viewer](https://polyhedra.tessera.li/)
 - [prime number search](https://www.mersenne.org/)
 - [open mathematics depository](https://openmathdep.tuxfamily.org/)
 - [harvard math site](https://people.math.harvard.edu/~knill/teaching/math1a_2011/index.html)
@@ -462,7 +519,7 @@
 - [polytopes](https://www.northforktrails.com/RussellTowle/Polytopes/polytope.html)
 - [algorithm archive](https://www.algorithm-archive.org/)
 
----
+--------------------------------------------------------------------------------
 
 ## Miscellaneous
 - [performant websites (under 1MB)](https://1mb.club/)
@@ -473,19 +530,30 @@
 - [online countdown timer (generate link)](https://www.tickcounter.com/)
 - [learn x in y minutes](https://learnxinyminutes.com/)
 
----
+--------------------------------------------------------------------------------
 
-## Origami
-- [wallet](https://www.thesprucecrafts.com/easy-origami-wallet-instructions-4048195)
-- [masu box](https://origami.guide/origami-boxes/origami-masu-box/3)
+## Music
+- [find samples used](https://www.whosampled.com/)
+- [song finder by lyrics](https://www.chosic.com/find-song-by-lyrics/)
+- [guitar chords file](https://github.com/bragefuglseth/fretboard/blob/main/data/chords.txt)
+- [guitar chord search](https://jguitar.com/chordsearch)
+- [best psychedelic albums of all time](https://www.scaruffi.com/music/psych.html)
+- [discover bands](https://www.gnoosic.com/faves.php)
+- [find similar artists](https://www.music-map.com/)
+- [piano lessons](https://howtoplaypiano.ca)
+- [music theory](https://musictheory.net)
+- [more music theory](https://teoria.com)
 
----
+--------------------------------------------------------------------------------
 
-## Art
-- [ascii art from image](https://asciiart.club/)
-- [royalty free images](https://unsplash.com/)
+## News
+- [hacker news](https://news.ycombinator.com)
+- [hacker news rss feeds](https://hnrss.github.io/#thread-feeds )
+- [fact check news](https://mediabiasfactcheck.com)
+- [news aggregator](https://spidr.today/)
+- [slower news](https://www.slowernews.com/)
 
----
+--------------------------------------------------------------------------------
 
 ## Novelty
 - [diffusion minecraft](https://github.com/etched-ai/open-oasis)
@@ -503,54 +571,20 @@
 - [bestfuckingwebsite](https://hazrian.github.io/Bestfuckingwebsite/)
 - [thebestmotherfuckingwebsite](https://thebestmotherfuckingwebsite.co)
 
-
----
+--------------------------------------------------------------------------------
 
 ## Online file conversion
 - [wikipedia page to latex/epub/pdf](https://mediawiki2latex.wmflabs.org/)
 - [puz to pdf](https://www.crosswordnexus.com/apps/puz-to-pdf/)
 
----
+--------------------------------------------------------------------------------
 
-## Music
-- [find samples used](https://www.whosampled.com/)
-- [song finder by lyrics](https://www.chosic.com/find-song-by-lyrics/)
-- [guitar chords file](https://github.com/bragefuglseth/fretboard/blob/main/data/chords.txt)
-- [guitar chord search](https://jguitar.com/chordsearch)
-- [best psychedelic albums of all time](https://www.scaruffi.com/music/psych.html)
-- [discover bands](https://www.gnoosic.com/faves.php)
-- [find similar artists](https://www.music-map.com/)
-- [piano lessons](https://howtoplaypiano.ca)
-- [music theory](https://musictheory.net)
-- [more music theory](https://teoria.com)
+## Origami
+- [wallet](https://www.thesprucecrafts.com/easy-origami-wallet-instructions-4048195)
+- [masu box](https://origami.guide/origami-boxes/origami-masu-box/3)
+- [Flapping (Bat) Paper Plane](https://www.instructables.com/Flapping-Paper-Plane/)
 
----
-
-## News
-- [hacker news](https://news.ycombinator.com)
-- [hacker news rss feeds](https://hnrss.github.io/#thread-feeds )
-- [fact check news](https://mediabiasfactcheck.com)
-- [news aggregator](https://spidr.today/)
-- [slower news](https://www.slowernews.com/)
-
----
-
-## Physics
-- [math and physics applets](http://falstad.com/)
-- [circuit simulator](https://www.falstad.com/circuit/)
-- [hyper physics](http://hyperphysics.phy-astr.gsu.edu)
-- [nist fundamental physical constants](https://physics.nist.gov/cuu/constants)
-- [space time travel](https://www.spacetimetravel.org/)
-- [feynman lectures on physics](https://www.feynmanlectures.caltech.edu)
-
----
-
-## Python
-- [python course](https://python-course.eu/)
-- [python tutorial](https://docs.python.org/3.10/tutorial/)
-- [ipython tricks](https://switowski.com/blog/25-ipython-tips-for-your-next-advent-of-code/)
-
----
+--------------------------------------------------------------------------------
 
 ## Papers
 - [arxiv semantic search](https://papermatch.mitanshu.tech/)
@@ -563,9 +597,75 @@
 - [acm articles](https://dl-acm-org.ezproxy.lib.vt.edu/)
 - [web of science](https://www.webofscience.com/)
 
----
+--------------------------------------------------------------------------------
+
+## Physics
+- [math and physics applets](http://falstad.com/)
+- [circuit simulator](https://www.falstad.com/circuit/)
+- [hyper physics](http://hyperphysics.phy-astr.gsu.edu)
+- [nist fundamental physical constants](https://physics.nist.gov/cuu/constants)
+- [space time travel](https://www.spacetimetravel.org/)
+- [feynman lectures on physics](https://www.feynmanlectures.caltech.edu)
+
+--------------------------------------------------------------------------------
+
+## Pinephone
+- [sxmo source (contains useful scripts that can work on pmos with little modification)](https://sxmo.org/source)
+- [apps](https://github.com/nikhiljha/awesome-linux-mobile)
+- [apps 2](https://linuxphoneapps.org/)
+
+### Posmarketos
+- [install build dependencies postmarketos (and other stuff)](https://wiki.postmarketos.org/wiki/Terminal_cheat_sheet)
+- [up/downgrade postmarketos](https://wiki.postmarketos.org/wiki/Upgrade_to_a_newer_postmarketOS_release)
+- [postmarketos](https://wiki.postmarketos.org/wiki/PINE64_PinePhone_(pine64-pinephone))
+- [call testing service](https://testcall.com/804-222-1111/)
+- [phone features and their star codes](https://people.cs.rutgers.edu/~watrous/phone-features.html)
+- [photo gallery](https://thumbsup.github.io/)
+
+### Mobian
+- [install mobian](https://wiki.mobian-project.org/doku.php?id=install)
+- [mobian apps](https://wiki.mobian-project.org/doku.php?id=apps)
+
+### Hardware 
+- [replacement battery](https://amazon.com/dp/B07M9TWXPZ)
+- [potential pinephone replacement battery with larger energy](https://www.reddit.com/r/pinephone/comments/majkr1/what_is_the_current_best_os_for_the_pinephone_in/)
+
+--------------------------------------------------------------------------------
+
+## Pirating/Free Media
+- [r/FREEMEDIAHECKYEAH Wiki](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/storage/)
+- [kiwix wikies](https://library.kiwix.org)
+
+--------------------------------------------------------------------------------
+
+## Python
+- [python course](https://python-course.eu/)
+- [python tutorial](https://docs.python.org/3.10/tutorial/)
+- [ipython tricks](https://switowski.com/blog/25-ipython-tips-for-your-next-advent-of-code/)
+
+--------------------------------------------------------------------------------
+
+## SH
+- [image to scan with imagemagick](https://superuser.com/questions/693339/batch-processing-images-of-documents-to-look-like-a-fax)
+- [ranger image preview](https://github-wiki-see.page/m/ranger/ranger/wiki/Image-Previews)
+- [lf with image preview](https://github.com/LukeSmithxyz/voidrice/tree/master/.config/lf)
+- [youtube in terminal](https://www.makeuseof.com/watch-youtube-videos-in-linux-terminal/)
+- [screen record and video](https://girishjoshi.io/post/screen-recording-with-webcam-overlay-using-ffmpeg/)
+- [screen record](https://trac.ffmpeg.org/wiki/Capture/Desktop)
+- [connect to eduroam with wpa_supplicant](https://docs.gwdg.de/doku.php?id=en:services:network_services:eduroam:linux_wpa_supplicant)
+
+### BASH
+- [bash scripting tutorial](https://bash.cyberciti.biz/guide/Main_Page)
+
+### ZSH
+- [zsh: 18 Zsh Line Editor](https://zsh.sourceforge.io/Doc/Release/Zsh-Line-Editor.html#Standard-Widgets)
+- [bash to zsh](https://www.bash2zsh.com/)
+- [🃏 Expansion | Z-Shell](https://wiki.zshell.dev/community/zsh_guide/roadmap/expansion)
+
+--------------------------------------------------------------------------------
 
 ## Society
+- [Department of Conservation and Recreation](https://www.dcr.virginia.gov/)
 - [corporate timer](https://corporate.watch/)
 - [all .gov sites](https://flatgithub.com/cisagov/dotgov-data/blob/main/)
 - [snowden leaks archive](https://github.com/iamcryptoki/snowden-archive)
@@ -575,7 +675,7 @@
 - [file taxes](https://www.irs.gov/filing/free-file-do-your-federal-taxes-for-free)
 - [isp information](https://broadbandnow.com/)
 
----
+--------------------------------------------------------------------------------
 
 ## Suckless
 - [fltk](https://www.fltk.org/)
@@ -598,12 +698,12 @@
 - [surf overview](https://troubleshooters.com/linux/surf.htm)
 - [wyebadblock](https://github.com/jun7/wyebadblock)
 
----
+--------------------------------------------------------------------------------
 
 ## Torrent
 - [torrents-csv](https://torrents-csv.com/)
 
----
+--------------------------------------------------------------------------------
 
 ## Travel
 - [travel light](https://www.onebag.com/)
@@ -611,7 +711,7 @@
 - [travel site](https://lonelyplanet.com)
 - [state parks](https://nps.gov)
 
----
+--------------------------------------------------------------------------------
 
 ## Video
 
@@ -631,14 +731,14 @@
 - [subtitles](https://www.opensubtitles.org/en/search/subs)
 
 ### Archive
-- [storror join vids](https://www.reddit.com/r/Storror/comments/ukz17e/comment/j2sghsm/)
+- [storror join vids](https://www.bilibili.com/video/BV1zu411B7YB/)
 - [monkey punch archive](https://archive.org/search?query=creator%3A%22Monkey+Punch%22&sort=title&and%5B%5D=firstTitle%3AL)
 - [castle of cagliostro](https://archive.org/details/lupin-iii-the-castle-of-cagliostro-english-dub_202302)
 - [lupin the third part 2 vol 1](https://archive.org/details/lupin-the-third-season-2-part-1-eng-dub)
 - [lupin the third part 2 vol 2](https://archive.org/details/lupin-the-third-season-2-part-2-eng-dub)
 - [lupin the third part 2 vol 3](https://archive.org/details/lupin-the-third-season-2-part-3-eng-dub)
 
----
+--------------------------------------------------------------------------------
 
 ## Vim
 - [configuring vim for writing](https://news.itsfoss.com/configuring-vim-writing/)
@@ -650,7 +750,6 @@
 - [vimtex tutorial](https://ejmastnak.com/tutorials/vim-latex/vimtex/)
 - [nvim plugins](https://github.com/topics/neovim-plugins)
 - [netrw](https://vonheikemen.github.io/devlog/tools/using-netrw-vim-builtin-file-explorer/)
-- [check out](https://www.reddit.com/r/neovim/comments/t9e546/run_external_process_from_neovim_with_lua/)
 - [writing french in vim](https://www.monolune.com/articles/writing-french-in-vim/)
 - [neovim setup](https://github.com/nanotee/nvim-lua-guide)
 - [vim-live-latex-preview](https://github.com/goballooning/vim-live-latex-preview)
@@ -658,10 +757,8 @@
 - [cool vim setup](https://castel.dev/post/lecture-notes-1/)
 - [jupyter with neovim](https://github.com/dccsillag/magma-nvim)
 - [neovim plugins](https://vonheikemen.github.io/devlog/tools/neovim-plugins-to-get-started/)
-- [netrw instead of nerdtree](https://shapeshed.com/vim-netrw/)
 
----
+--------------------------------------------------------------------------------
 
 ## YAML
 - [yaml linter](https://www.yamllint.com/)
-
